@@ -191,6 +191,12 @@ body {
   cursor: pointer;
 }
 
+.filter-group__checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 /* Managers Grid */
 .managers__header {
   display: flex;

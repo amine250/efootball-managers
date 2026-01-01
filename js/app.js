@@ -21,9 +21,7 @@ const elements = {
   empty: document.getElementById('managers-empty'),
   search: document.getElementById('search'),
   sortBy: document.getElementById('sort-by'),
-  minPlaystyle: document.getElementById('min-playstyle'),
-  minPlaystyleValue: document.getElementById('min-playstyle-value'),
-  playstyleFilter: document.getElementById('playstyle-filter'),
+  playstyleCheckboxes: document.querySelectorAll('.playstyle-checkbox'),
   boosterFilter: document.getElementById('booster-filter'),
   hasLinkup: document.getElementById('has-linkup'),
   resetBtn: document.getElementById('reset-filters')
@@ -71,8 +69,9 @@ function populateBoosterFilter() {
 function applyFilters() {
   const searchTerm = elements.search.value.toLowerCase().trim();
   const sortBy = elements.sortBy.value;
-  const minPlaystyle = parseInt(elements.minPlaystyle.value);
-  const playstyleFilter = elements.playstyleFilter.value;
+  const selectedPlaystyles = Array.from(elements.playstyleCheckboxes)
+    .filter(cb => cb.checked)
+    .map(cb => cb.value);
   const boosterFilter = elements.boosterFilter.value;
   const hasLinkup = elements.hasLinkup.checked;
 
@@ -83,17 +82,12 @@ function applyFilters() {
       return false;
     }
 
-    // Playstyle minimum filter
-    if (playstyleFilter) {
-      // Filter for managers with selected playstyle at 80 or more
-      if (manager.teamPlaystyleProficiency[playstyleFilter] < 80) {
-        return false;
-      }
-    } else {
-      // Check if any playstyle meets minimum
-      const hasMinPlaystyle = Object.values(manager.teamPlaystyleProficiency)
-        .some(value => value >= minPlaystyle);
-      if (!hasMinPlaystyle) {
+    // Playstyle checkbox filter (80+)
+    if (selectedPlaystyles.length > 0) {
+      const hasAllSelectedPlaystyles = selectedPlaystyles.every(
+        playstyle => manager.teamPlaystyleProficiency[playstyle] >= 80
+      );
+      if (!hasAllSelectedPlaystyles) {
         return false;
       }
     }
@@ -238,9 +232,7 @@ function createLinkupHtml(linkup) {
 function resetFilters() {
   elements.search.value = '';
   elements.sortBy.value = 'name';
-  elements.minPlaystyle.value = 10;
-  elements.minPlaystyleValue.textContent = '10';
-  elements.playstyleFilter.value = '';
+  elements.playstyleCheckboxes.forEach(cb => cb.checked = false);
   elements.boosterFilter.value = '';
   elements.hasLinkup.checked = false;
   applyFilters();
@@ -249,11 +241,7 @@ function resetFilters() {
 // Event Listeners
 elements.search.addEventListener('input', applyFilters);
 elements.sortBy.addEventListener('change', applyFilters);
-elements.minPlaystyle.addEventListener('input', (e) => {
-  elements.minPlaystyleValue.textContent = e.target.value;
-  applyFilters();
-});
-elements.playstyleFilter.addEventListener('change', applyFilters);
+elements.playstyleCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
 elements.boosterFilter.addEventListener('change', applyFilters);
 elements.hasLinkup.addEventListener('change', applyFilters);
 elements.resetBtn.addEventListener('click', resetFilters);

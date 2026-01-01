@@ -44,30 +44,29 @@
         </div>
 
         <div class="filter-group">
-          <label class="filter-group__label">Min Playstyle Value</label>
-          <div class="filter-group__range-container">
-            <input
-              type="range"
-              id="min-playstyle"
-              class="filter-group__range"
-              min="10"
-              max="99"
-              value="10"
-            >
-            <span class="filter-group__range-value" id="min-playstyle-value">10</span>
+          <span class="filter-group__label">Playstyle Filter (80+)</span>
+          <div class="filter-group__checkboxes" id="playstyle-checkboxes">
+            <label class="filter-group__label">
+              <input type="checkbox" value="possessionGame" class="filter-group__checkbox playstyle-checkbox">
+              Possession Game
+            </label>
+            <label class="filter-group__label">
+              <input type="checkbox" value="quickCounter" class="filter-group__checkbox playstyle-checkbox">
+              Quick Counter
+            </label>
+            <label class="filter-group__label">
+              <input type="checkbox" value="longBallCounter" class="filter-group__checkbox playstyle-checkbox">
+              Long Ball Counter
+            </label>
+            <label class="filter-group__label">
+              <input type="checkbox" value="outWide" class="filter-group__checkbox playstyle-checkbox">
+              Out Wide
+            </label>
+            <label class="filter-group__label">
+              <input type="checkbox" value="longBall" class="filter-group__checkbox playstyle-checkbox">
+              Long Ball
+            </label>
           </div>
-        </div>
-
-        <div class="filter-group">
-          <label class="filter-group__label" for="playstyle-filter">Playstyle Filter</label>
-          <select id="playstyle-filter" class="filter-group__select">
-            <option value="">Any Playstyle</option>
-            <option value="possessionGame">Possession Game</option>
-            <option value="longBallCounter">Long Ball Counter</option>
-            <option value="quickCounter">Quick Counter</option>
-            <option value="longBall">Long Ball</option>
-            <option value="outWide">Out Wide</option>
-          </select>
         </div>
 
         <div class="filter-group">
