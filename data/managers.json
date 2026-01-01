@@ -558,5 +558,49 @@
       "longBall": 29
     },
     "linkUpPlay": null
+  },
+  {
+    "id": "gattuso",
+    "name": "Gennaro Gattuso",
+    "photo": "data/photos/gattuso.png",
+    "boosterEffects": [
+      { "stat": "Tackling", "value": "+1" },
+      { "stat": "Lofted Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 53,
+      "quickCounter": 65,
+      "longBallCounter": 57,
+      "outWide": 89,
+      "longBall": 71
+    },
+    "linkUpPlay": {
+      "name": "Diagonal Long Pass A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["AMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Hole Player",
+        "positions": ["LMF", "RMF"]
+      }
+    }
+  },
+  {
+    "id": "beckenbauer",
+    "name": "F. Beckenbauer",
+    "photo": "data/photos/beckenbauer.png",
+    "boosterEffects": [
+      { "stat": "Finishing", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 53,
+      "quickCounter": 67,
+      "longBallCounter": 80,
+      "outWide": 54,
+      "longBall": 89
+    },
+    "linkUpPlay": null
   }
 ]
