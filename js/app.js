@@ -85,7 +85,8 @@ function applyFilters() {
 
     // Playstyle minimum filter
     if (playstyleFilter) {
-      if (manager.teamPlaystyleProficiency[playstyleFilter] < minPlaystyle) {
+      // Filter for managers with selected playstyle at 80 or more
+      if (manager.teamPlaystyleProficiency[playstyleFilter] < 80) {
         return false;
       }
     } else {
@@ -189,7 +190,7 @@ function createManagerCard(manager) {
 function createPlaystyleBar(name, value) {
   let fillClass = 'playstyle__fill--low';
   if (value >= 80) fillClass = 'playstyle__fill--high';
-  else if (value >= 60) fillClass = 'playstyle__fill--medium';
+  else if (value >= 70) fillClass = 'playstyle__fill--medium';
 
   return `
     <div class="playstyle">
