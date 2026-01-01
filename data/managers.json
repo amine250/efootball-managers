@@ -602,5 +602,37 @@
       "longBall": 89
     },
     "linkUpPlay": null
+  },
+  {
+    "id": "dstojkovic",
+    "name": "D. Stojkovic",
+    "photo": "data/photos/stojkovic.png",
+    "boosterEffects": [
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 63,
+      "quickCounter": 88,
+      "longBallCounter": 58,
+      "outWide": 88,
+      "longBall": 53
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "ldelafuente",
+    "name": "L. de la Fuente",
+    "photo": "data/photos/delafuente.png",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 61,
+      "longBallCounter": 27,
+      "outWide": 88,
+      "longBall": 22
+    },
+    "linkUpPlay": null
   }
 ]
