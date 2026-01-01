@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eFootball Managers</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1 class="header__title">eFootball Managers</h1>
+      <p class="header__subtitle">Make the best tactical decision</p>
+    </header>
+
+    <main class="main">
+      <aside class="filters">
+        <div class="filters__header">
+          <h2 class="filters__title">Filters</h2>
+          <button class="filters__reset" id="reset-filters">Reset</button>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label" for="search">Search</label>
+          <input
+            type="text"
+            id="search"
+            class="filter-group__input"
+            placeholder="Manager name..."
+          >
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label" for="sort-by">Sort By</label>
+          <select id="sort-by" class="filter-group__select">
+            <option value="name">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="possessionGame">Possession Game</option>
+            <option value="longBallCounter">Long Ball Counter</option>
+            <option value="quickCounter">Quick Counter</option>
+            <option value="longBall">Long Ball</option>
+            <option value="outWide">Out Wide</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label">Min Playstyle Value</label>
+          <div class="filter-group__range-container">
+            <input
+              type="range"
+              id="min-playstyle"
+              class="filter-group__range"
+              min="10"
+              max="99"
+              value="10"
+            >
+            <span class="filter-group__range-value" id="min-playstyle-value">10</span>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label" for="playstyle-filter">Playstyle Filter</label>
+          <select id="playstyle-filter" class="filter-group__select">
+            <option value="">Any Playstyle</option>
+            <option value="possessionGame">Possession Game</option>
+            <option value="longBallCounter">Long Ball Counter</option>
+            <option value="quickCounter">Quick Counter</option>
+            <option value="longBall">Long Ball</option>
+            <option value="outWide">Out Wide</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label" for="booster-filter">Booster Effect</label>
+          <select id="booster-filter" class="filter-group__select">
+            <option value="">Any Booster</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-group__label">
+            <input type="checkbox" id="has-linkup" class="filter-group__checkbox">
+            Has Link-Up Play
+          </label>
+        </div>
+      </aside>
+
+      <section class="managers">
+        <div class="managers__header">
+          <span class="managers__count" id="managers-count">0 managers</span>
+        </div>
+        <div class="managers__grid" id="managers-grid">
+          <!-- Manager cards will be inserted here -->
+        </div>
+        <div class="managers__empty" id="managers-empty" hidden>
+          <p>No managers found matching your criteria.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

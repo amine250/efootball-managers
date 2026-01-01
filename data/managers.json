@@ -1,0 +1,562 @@
+[
+  {
+    "id": "cfabregas",
+    "name": "Cesc Fabregas",
+    "photo": "data/photos/fabregas.png",
+    "boosterEffects": [
+      { "stat": "Lofted Pass", "value": "+1" },
+      { "stat": "Defensive Engagement", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 65,
+      "longBallCounter": 56,
+      "outWide": 68,
+      "longBall": 57
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass A",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["DMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "fcapello",
+    "name": "Fabio Capello",
+    "photo": "data/photos/capello.png",
+    "boosterEffects": [
+      { "stat": "Defensive Awareness", "value": "+1" },
+      { "stat": "Finishing", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 46,
+      "quickCounter": 57,
+      "longBallCounter": 89,
+      "outWide": 64,
+      "longBall": 89
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass A",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["DMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "ramorim",
+    "name": "Ruben Amorim",
+    "photo": "data/photos/amorim.png",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" },
+      { "stat": "Lofted Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 62,
+      "quickCounter": 81,
+      "longBallCounter": 54,
+      "outWide": 89,
+      "longBall": 46
+    },
+    "linkUpPlay": {
+      "name": "Aggressive Centring A",
+      "centerPiece": {
+        "playingStyle": "Cross Specialist",
+        "positions": ["LMF", "RMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "jmourinho1",
+    "name": "José Mourinho",
+    "photo": "data/photos/mourinho1.png",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 59,
+      "quickCounter": 89,
+      "longBallCounter": 62,
+      "outWide": 68,
+      "longBall": 80
+    },
+    "linkUpPlay": {
+      "name": "Diagonal Long Pass A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["AMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Hole Player",
+        "positions": ["LMF", "RMF"]
+      }
+    }
+  },
+  {
+    "id": "xalonso1",
+    "name": "Xabi Alonso",
+    "photo": "data/photos/alonso1.png",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 88,
+      "longBallCounter": 46,
+      "outWide": 59,
+      "longBall": 42
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "xalonso2",
+    "name": "Xabi Alonso",
+    "photo": "data/photos/alonso2.png",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 72,
+      "quickCounter": 88,
+      "longBallCounter": 35,
+      "outWide": 51,
+      "longBall": 28
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "hflick1",
+    "name": "Hansi Flick",
+    "photo": "data/photos/flick1.png",
+    "boosterEffects": [
+      { "stat": "Dribbling", "value": "+1" },
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 88,
+      "longBallCounter": 69,
+      "outWide": 57,
+      "longBall": 45
+    },
+    "linkUpPlay": {
+      "name": "Diagonal Long Pass A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["AMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Hole Player",
+        "positions": ["LMF", "RMF"]
+      }
+    }
+  },
+  {
+    "id": "rmartinez",
+    "name": "R. Martinez",
+    "photo": "data/photos/martinez.png",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" },
+      { "stat": "Aggression", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 64,
+      "quickCounter": 46,
+      "longBallCounter": 89,
+      "outWide": 80,
+      "longBall": 53
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "pkluivert",
+    "name": "P. Kluivert",
+    "photo": "data/photos/kluivert.png",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Defensive Engagement", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 80,
+      "longBallCounter": 64,
+      "outWide": 51,
+      "longBall": 48
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "rkoeman1",
+    "name": "Ronald Koeman",
+    "photo": "data/photos/koeman1.png",
+    "boosterEffects": [
+      { "stat": "Heading", "value": "+1" },
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 88,
+      "longBallCounter": 55,
+      "outWide": 68,
+      "longBall": 61
+    },
+    "linkUpPlay": {
+      "name": "Aggressive Centring A",
+      "centerPiece": {
+        "playingStyle": "Cross Specialist",
+        "positions": ["LMF", "RMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "pguardiola",
+    "name": "Pep Guardiola",
+    "photo": "data/photos/guardiola.png",
+    "boosterEffects": [
+      { "stat": "Kicking Power", "value": "+1" },
+      { "stat": "Aggression", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 63,
+      "longBallCounter": 54,
+      "outWide": 89,
+      "longBall": 51
+    },
+    "linkUpPlay": {
+      "name": "Diagonal Long Pass B",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["LWF", "RWF"]
+      },
+      "keyMan": {
+        "playingStyle": "Attacking Full-back",
+        "positions": ["LB", "RB"]
+      }
+    }
+  },
+  {
+    "id": "mallegri",
+    "name": "M. Allegri",
+    "photo": "data/photos/allegri.png",
+    "boosterEffects": [
+      { "stat": "Attacking Awareness", "value": "+1" },
+      { "stat": "Ball Control", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 58,
+      "quickCounter": 67,
+      "longBallCounter": 89,
+      "outWide": 63,
+      "longBall": 89
+    },
+    "linkUpPlay": {
+      "name": "Aggressive Centring A",
+      "centerPiece": {
+        "playingStyle": "Cross Specialist",
+        "positions": ["LMF", "RMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "marteta1",
+    "name": "Mikel Arteta",
+    "photo": "data/photos/arteta1.png",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" },
+      { "stat": "Set Piece Taking", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 64,
+      "longBallCounter": 88,
+      "outWide": 57,
+      "longBall": 54
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass B",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["CMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Prolific Winger",
+        "positions": ["LWF", "RWF"]
+      }
+    }
+  },
+  {
+    "id": "laroman",
+    "name": "Luis A. Roman",
+    "photo": "data/photos/nophoto.png",
+    "boosterEffects": [],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 87,
+      "quickCounter": 72,
+      "longBallCounter": 27,
+      "outWide": 68,
+      "longBall": 34
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "jmourinho2",
+    "name": "José Mourinho",
+    "photo": "data/photos/mourinho2.png",
+    "boosterEffects": [
+      { "stat": "Tackling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 49,
+      "quickCounter": 45,
+      "longBallCounter": 88,
+      "outWide": 88,
+      "longBall": 66
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "rgarcia",
+    "name": "Rudi Garcia",
+    "photo": "data/photos/rgarcia.png",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" },
+      { "stat": "Attacking Awareness", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 52,
+      "quickCounter": 89,
+      "longBallCounter": 58,
+      "outWide": 80,
+      "longBall": 69
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "marteta2",
+    "name": "Mikel Arteta",
+    "photo": "data/photos/arteta2.png",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" },
+      { "stat": "Tight Possession", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 72,
+      "quickCounter": 68,
+      "longBallCounter": 88,
+      "outWide": 67,
+      "longBall": 30
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "marteta3",
+    "name": "Mikel Arteta",
+    "photo": "data/photos/arteta3.png",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 85,
+      "quickCounter": 71,
+      "longBallCounter": 68,
+      "outWide": 73,
+      "longBall": 20
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "inzaghi",
+    "name": "Simone Inzaghi",
+    "photo": "data/photos/inzaghi1.png",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" },
+      { "stat": "Finishing", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 60,
+      "quickCounter": 78,
+      "longBallCounter": 88,
+      "outWide": 51,
+      "longBall": 43
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "lspalletti",
+    "name": "L. Spalletti",
+    "photo": "data/photos/spalletti.png",
+    "boosterEffects": [
+      { "stat": "Defensive Awareness", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 82,
+      "quickCounter": 56,
+      "longBallCounter": 89,
+      "outWide": 61,
+      "longBall": 46
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "gasperini",
+    "name": "G. P. Gaspeini",
+    "photo": "data/photos/gasperini.png",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 57,
+      "quickCounter": 88,
+      "longBallCounter": 88,
+      "outWide": 52,
+      "longBall": 41
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "lscaloni",
+    "name": "L. Scaloni",
+    "photo": "data/photos/scaloni.png",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 87,
+      "quickCounter": 86,
+      "longBallCounter": 55,
+      "outWide": 38,
+      "longBall": 37
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "deschamps",
+    "name": "D. Deschamps",
+    "photo": "data/photos/deschamps.png",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 69,
+      "quickCounter": 62,
+      "longBallCounter": 88,
+      "outWide": 75,
+      "longBall": 67
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "lampard",
+    "name": "Frank Lampard",
+    "photo": "data/photos/lampard.png",
+    "boosterEffects": [
+      { "stat": "Balance", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 56,
+      "quickCounter": 88,
+      "longBallCounter": 54,
+      "outWide": 88,
+      "longBall": 45
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "rijkaard1",
+    "name": "Frank Rijkaard",
+    "photo": "data/photos/rijkaard1.png",
+    "boosterEffects": [
+      { "stat": "Tight Possession", "value": "+1" },
+      { "stat": "Balance", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 70,
+      "quickCounter": 89,
+      "longBallCounter": 48,
+      "outWide": 89,
+      "longBall": 46
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass B",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["CMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Prolific Winger",
+        "positions": ["LWF", "RWF"]
+      }
+    }
+  },
+  {
+    "id": "rijkaard2",
+    "name": "Frank Rijkaard",
+    "photo": "data/photos/rijkaard2.png",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 57,
+      "longBallCounter": 88,
+      "outWide": 68,
+      "longBall": 35
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "cvalbuena",
+    "name": "Cristo Valbuena",
+    "photo": "data/photos/nophoto.png",
+    "boosterEffects": [],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 66,
+      "quickCounter": 44,
+      "longBallCounter": 85,
+      "outWide": 58,
+      "longBall": 65
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "inzaghi2",
+    "name": "Simone Inzaghi",
+    "photo": "data/photos/inzaghi2.png",
+    "boosterEffects": [
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 41,
+      "quickCounter": 85,
+      "longBallCounter": 70,
+      "outWide": 64,
+      "longBall": 29
+    },
+    "linkUpPlay": null
+  }
+]
