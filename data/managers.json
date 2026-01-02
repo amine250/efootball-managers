@@ -634,5 +634,21 @@
       "longBall": 22
     },
     "linkUpPlay": null
+  },
+  {
+    "id": "ohenrique",
+    "name": "O. Henriques",
+    "photo": "data/photos/ohenrique.png",
+    "boosterEffects": [
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 67,
+      "quickCounter": 87,
+      "longBallCounter": 52,
+      "outWide": 45,
+      "longBall": 86
+    },
+    "linkUpPlay": null
   }
 ]
