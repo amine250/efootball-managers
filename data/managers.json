@@ -650,5 +650,21 @@
       "longBall": 86
     },
     "linkUpPlay": null
+  },
+  {
+    "id": "etenhag",
+    "name": "Erik ten Hag",
+    "photo": "data/photos/etenhag.png",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 51,
+      "quickCounter": 66,
+      "longBallCounter": 85,
+      "outWide": 70,
+      "longBall": 40
+    },
+    "linkUpPlay": null
   }
 ]
