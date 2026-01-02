@@ -36,7 +36,7 @@ const elements = {
   sortBy: document.getElementById('sort-by'),
   playstyleCheckboxes: document.querySelectorAll('.playstyle-checkbox'),
   boosterFilter: document.getElementById('booster-filter'),
-  hasLinkup: document.getElementById('has-linkup'),
+  linkupFilter: document.getElementById('linkup-filter'),
   resetBtn: document.getElementById('reset-filters')
 };
 
@@ -48,6 +48,7 @@ async function loadManagers() {
     const response = await fetch('data/managers.json');
     managers = await response.json();
     populateBoosterFilter();
+    populateLinkupFilter();
     applyFilters();
   } catch (error) {
     console.error('Failed to load managers:', error);
@@ -77,6 +78,26 @@ function populateBoosterFilter() {
 }
 
 /**
+ * Populate link-up play filter dropdown with unique link-up play names
+ */
+function populateLinkupFilter() {
+  const linkups = new Set();
+  managers.forEach(manager => {
+    if (manager.linkUpPlay && manager.linkUpPlay.name) {
+      linkups.add(manager.linkUpPlay.name);
+    }
+  });
+
+  const sortedLinkups = Array.from(linkups).sort();
+  sortedLinkups.forEach(linkup => {
+    const option = document.createElement('option');
+    option.value = linkup;
+    option.textContent = linkup;
+    elements.linkupFilter.appendChild(option);
+  });
+}
+
+/**
  * Apply all filters and sorting to managers
  */
 function applyFilters() {
@@ -86,7 +107,7 @@ function applyFilters() {
     .filter(cb => cb.checked)
     .map(cb => cb.value);
   const boosterFilter = elements.boosterFilter.value;
-  const hasLinkup = elements.hasLinkup.checked;
+  const linkupFilter = elements.linkupFilter.value;
 
   // Filter
   filteredManagers = managers.filter(manager => {
@@ -114,7 +135,7 @@ function applyFilters() {
     }
 
     // Link-up play filter
-    if (hasLinkup && !manager.linkUpPlay) {
+    if (linkupFilter && (!manager.linkUpPlay || manager.linkUpPlay.name !== linkupFilter)) {
       return false;
     }
 
@@ -255,7 +276,7 @@ function resetFilters() {
   elements.sortBy.value = 'releaseDate-desc';
   elements.playstyleCheckboxes.forEach(cb => cb.checked = false);
   elements.boosterFilter.value = '';
-  elements.hasLinkup.checked = false;
+  elements.linkupFilter.value = '';
   applyFilters();
 }
 
@@ -264,7 +285,7 @@ elements.search.addEventListener('input', applyFilters);
 elements.sortBy.addEventListener('change', applyFilters);
 elements.playstyleCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
 elements.boosterFilter.addEventListener('change', applyFilters);
-elements.hasLinkup.addEventListener('change', applyFilters);
+elements.linkupFilter.addEventListener('change', applyFilters);
 elements.resetBtn.addEventListener('click', resetFilters);
 
 // Initialize
