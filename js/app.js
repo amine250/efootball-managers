@@ -11,6 +11,19 @@ const PLAYSTYLE_LABELS = {
   outWide: 'Out Wide'
 };
 
+/**
+ * Format release date for display
+ */
+function formatReleaseDate(dateString) {
+  if (!dateString) return 'Unknown';
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+
 let managers = [];
 let filteredManagers = [];
 
@@ -114,6 +127,11 @@ function applyFilters() {
       return a.name.localeCompare(b.name);
     } else if (sortBy === 'name-desc') {
       return b.name.localeCompare(a.name);
+    } else if (sortBy === 'releaseDate' || sortBy === 'releaseDate-desc') {
+      // Handle null release dates - treat as oldest (far past)
+      const dateA = a.releaseDate ? new Date(a.releaseDate) : new Date(0);
+      const dateB = b.releaseDate ? new Date(b.releaseDate) : new Date(0);
+      return sortBy === 'releaseDate-desc' ? dateB - dateA : dateA - dateB;
     } else {
       // Sort by playstyle value (descending)
       return b.teamPlaystyleProficiency[sortBy] - a.teamPlaystyleProficiency[sortBy];
@@ -155,12 +173,15 @@ function createManagerCard(manager) {
     ? createLinkupHtml(manager.linkUpPlay)
     : '<div class="linkup--none">No Link-Up Play</div>';
 
+  const releaseDateHtml = `<div class="card__release-date">Released: ${formatReleaseDate(manager.releaseDate)}</div>`;
+
   return `
     <article class="card">
       <header class="card__header">
         <img src="${manager.photo}" alt="${manager.name}" class="card__photo" loading="lazy">
         <div class="card__info">
           <h3 class="card__name">${manager.name}</h3>
+          ${releaseDateHtml}
           <div class="card__boosters">${boostersHtml}</div>
         </div>
       </header>
@@ -231,7 +252,7 @@ function createLinkupHtml(linkup) {
  */
 function resetFilters() {
   elements.search.value = '';
-  elements.sortBy.value = 'name';
+  elements.sortBy.value = 'releaseDate-desc';
   elements.playstyleCheckboxes.forEach(cb => cb.checked = false);
   elements.boosterFilter.value = '';
   elements.hasLinkup.checked = false;
