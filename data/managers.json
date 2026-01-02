@@ -671,6 +671,7 @@
     "id": "ohenrique",
     "name": "O. Henriques",
     "photo": "data/photos/ohenrique.png",
+    "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" }
     ],
@@ -687,6 +688,7 @@
     "id": "etenhag",
     "name": "Erik ten Hag",
     "photo": "data/photos/etenhag.png",
+    "releaseDate": "2023-10-07",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" }
     ],
@@ -696,6 +698,320 @@
       "longBallCounter": 85,
       "outWide": 70,
       "longBall": 40
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "pguardiola2",
+    "name": "Pep Guardiola",
+    "photo": "data/photos/guardiola2.png",
+    "releaseDate": "2024-04-11",
+    "boosterEffects": [
+      { "stat": "Tight Possession", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 74,
+      "longBallCounter": 37,
+      "outWide": 68,
+      "longBall": 32
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "xavi",
+    "name": "Xavi",
+    "photo": "data/photos/xavi.png",
+    "releaseDate": "2023-10-07",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 85,
+      "quickCounter": 70,
+      "longBallCounter": 18,
+      "outWide": 42,
+      "longBall": 25
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "pioli",
+    "name": "Stafano Pioli",
+    "photo": "data/photos/pioli.png",
+    "releaseDate": "2023-10-19",
+    "boosterEffects": [
+      { "stat": "Tackling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 51,
+      "quickCounter": 85,
+      "longBallCounter": 59,
+      "outWide": 75,
+      "longBall": 45
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "tuchel",
+    "name": "Thomas Tuchel",
+    "photo": "data/photos/tuchel.png",
+    "releaseDate": "2023-10-19",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 65,
+      "quickCounter": 45,
+      "longBallCounter": 70,
+      "outWide": 85,
+      "longBall": 24
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "zico",
+    "name": "Zico",
+    "photo": "data/photos/zico.png",
+    "releaseDate": "2024-02-01",
+    "boosterEffects": [
+      { "stat": "Dribbling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 83,
+      "quickCounter": 60,
+      "longBallCounter": 34,
+      "outWide": 75,
+      "longBall": 20
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "rmartinez2",
+    "name": "R. Martinez",
+    "photo": "data/photos/martinez2.png",
+    "releaseDate": "2024-06-13",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 72,
+      "quickCounter": 68,
+      "longBallCounter": 52,
+      "outWide": 69,
+      "longBall": 88
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "montella",
+    "name": "V. Montella",
+    "photo": "data/photos/montella.png",
+    "releaseDate": "2024-06-13",
+    "boosterEffects": [
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 64,
+      "quickCounter": 45,
+      "longBallCounter": 74,
+      "outWide": 88,
+      "longBall": 57
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "southgate",
+    "name": "G. Southgate",
+    "photo": "data/photos/southgate.png",
+    "releaseDate": "2024-06-13",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 44,
+      "quickCounter": 86,
+      "longBallCounter": 87,
+      "outWide": 69,
+      "longBall": 32
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "gerrard",
+    "name": "Steven Gerrard",
+    "photo": "data/photos/gerrard.png",
+    "releaseDate": "2024-10-10",
+    "boosterEffects": [
+      { "stat": "Dribbling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 35,
+      "longBallCounter": 55,
+      "outWide": 68,
+      "longBall": 88
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "vieira",
+    "name": "Patrick Vieira",
+    "photo": "data/photos/vieira.png",
+    "releaseDate": "2024-11-07",
+    "boosterEffects": [
+      { "stat": "Tackling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 35,
+      "quickCounter": 67,
+      "longBallCounter": 35,
+      "outWide": 88,
+      "longBall": 88
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "hflick2",
+    "name": "Hansi Flick",
+    "photo": "data/photos/flick2.png",
+    "releaseDate": "2024-11-21",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Speed", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 75,
+      "longBallCounter": 45,
+      "outWide": 64,
+      "longBall": 31
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "fonseca",
+    "name": "Paulo Fonseca",
+    "photo": "data/photos/fonseca.png",
+    "releaseDate": "2024-11-28",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 36,
+      "quickCounter": 88,
+      "longBallCounter": 73,
+      "outWide": 50,
+      "longBall": 63
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "rkoeman2",
+    "name": "Ronald Koeman",
+    "photo": "data/photos/koeman2.png",
+    "releaseDate": "2024-12-26",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 64,
+      "quickCounter": 56,
+      "longBallCounter": 88,
+      "outWide": 72,
+      "longBall": 45
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "ramorim2",
+    "name": "Ruben Amorim",
+    "photo": "data/photos/amorim2.png",
+    "releaseDate": "2025-01-16",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" },
+      { "stat": "Attacking Awareness", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 74,
+      "quickCounter": 88,
+      "longBallCounter": 54,
+      "outWide": 43,
+      "longBall": 38
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "kompany",
+    "name": "Vincent Kompany",
+    "photo": "data/photos/kompany.png",
+    "releaseDate": "2025-02-20",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 56,
+      "longBallCounter": 58,
+      "outWide": 76,
+      "longBall": 54
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "solbakken",
+    "name": "Ståle Solbakken",
+    "photo": "data/photos/solbakken.png",
+    "releaseDate": "2025-04-10",
+    "boosterEffects": [
+      { "stat": "Heading", "value": "+1" },
+      { "stat": "Physical Contact", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 47,
+      "quickCounter": 56,
+      "longBallCounter": 64,
+      "outWide": 89,
+      "longBall": 80
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "cruyff",
+    "name": "Johan Cruyff",
+    "photo": "data/photos/cruyff.png",
+    "releaseDate": "2025-04-17",
+    "boosterEffects": [
+      { "stat": "Tight Possession", "value": "+1" },
+      { "stat": "Jumping", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 67,
+      "longBallCounter": 54,
+      "outWide": 81,
+      "longBall": 43
+    },
+    "linkUpPlay": null
+  },
+  {
+    "id": "buruk",
+    "name": "Okan Buruk",
+    "photo": "data/photos/buruk.png",
+    "releaseDate": "2025-06-12",
+    "boosterEffects": [
+      { "stat": "Balance", "value": "+1" },
+      { "stat": "Lofted Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 55,
+      "quickCounter": 80,
+      "longBallCounter": 43,
+      "outWide": 89,
+      "longBall": 63
     },
     "linkUpPlay": null
   }
