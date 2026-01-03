@@ -415,7 +415,7 @@ body {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: #22c55e;
+  background: #f59e0b;
   color: white;
   border: none;
   border-radius: 2rem;
@@ -423,15 +423,15 @@ body {
   font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
-  box-shadow: var(--shadow-md), 0 0 20px rgba(34, 197, 94, 0.3);
+  box-shadow: var(--shadow-md), 0 0 20px rgba(245, 158, 11, 0.3);
   transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
   z-index: 100;
 }
 
 .playstyle-guide-btn:hover {
-  background: #4ade80;
+  background: #fbbf24;
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md), 0 0 25px rgba(74, 222, 128, 0.4);
+  box-shadow: var(--shadow-md), 0 0 25px rgba(251, 191, 36, 0.4);
 }
 
 /* Playstyle Guide Popup */
