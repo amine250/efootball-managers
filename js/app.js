@@ -288,5 +288,27 @@ elements.boosterFilter.addEventListener('change', applyFilters);
 elements.linkupFilter.addEventListener('change', applyFilters);
 elements.resetBtn.addEventListener('click', resetFilters);
 
+// Playstyle Guide Popup
+const playstyleGuideBtn = document.getElementById('playstyle-guide-btn');
+const playstyleGuidePopup = document.getElementById('playstyle-guide-popup');
+const playstyleGuideClose = document.getElementById('playstyle-guide-close');
+
+playstyleGuideBtn.addEventListener('click', () => {
+  playstyleGuidePopup.hidden = !playstyleGuidePopup.hidden;
+});
+
+playstyleGuideClose.addEventListener('click', () => {
+  playstyleGuidePopup.hidden = true;
+});
+
+// Close popup when clicking outside
+document.addEventListener('click', (e) => {
+  if (!playstyleGuidePopup.hidden &&
+      !playstyleGuidePopup.contains(e.target) &&
+      !playstyleGuideBtn.contains(e.target)) {
+    playstyleGuidePopup.hidden = true;
+  }
+});
+
 // Initialize
 loadManagers();

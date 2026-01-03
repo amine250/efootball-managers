@@ -404,6 +404,131 @@ body {
   padding: 0.75rem;
 }
 
+/* Playstyle Guide Button */
+.playstyle-guide-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background var(--transition), transform var(--transition);
+  z-index: 100;
+}
+
+.playstyle-guide-btn:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-2px);
+}
+
+/* Playstyle Guide Popup */
+.playstyle-guide-popup {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.1rem;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  z-index: 101;
+  max-width: 400px;
+  animation: popupSlideIn 0.2s ease;
+  margin-left: 1.1rem;
+}
+
+@keyframes popupSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.playstyle-guide-popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.playstyle-guide-popup__title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.playstyle-guide-popup__close {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition), color var(--transition);
+}
+
+.playstyle-guide-popup__close:hover {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text);
+}
+
+.playstyle-guide-popup__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.playstyle-guide-popup__table th,
+.playstyle-guide-popup__table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.playstyle-guide-popup__table th {
+  background: var(--color-bg-tertiary);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-secondary);
+}
+
+.playstyle-guide-popup__table tbody tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.playstyle-guide-popup__table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.playstyle-guide-popup__table tbody tr:hover {
+  background: var(--color-bg-tertiary);
+}
+
+.playstyle-guide-popup__table td:first-child {
+  font-weight: 500;
+}
+
+.playstyle-guide-popup__table td:last-child {
+  color: var(--color-accent-hover);
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .app {

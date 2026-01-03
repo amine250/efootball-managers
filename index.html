@@ -101,6 +101,46 @@
     </main>
   </div>
 
+  <!-- Playstyle Guide Button and Popup -->
+  <button class="playstyle-guide-btn" id="playstyle-guide-btn">Playstyle guide</button>
+
+  <div class="playstyle-guide-popup" id="playstyle-guide-popup" hidden>
+    <div class="playstyle-guide-popup__header">
+      <span class="playstyle-guide-popup__title">Which playstyle to use?</span>
+      <button class="playstyle-guide-popup__close" id="playstyle-guide-close">&times;</button>
+    </div>
+    <table class="playstyle-guide-popup__table">
+      <thead>
+        <tr>
+          <th>Opponent's Playing Style</th>
+          <th>Your playstyle should be</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Possession</td>
+          <td>Quick Counter</td>
+        </tr>
+        <tr>
+          <td>Quick Counter</td>
+          <td>Long Ball Counter, Long Ball</td>
+        </tr>
+        <tr>
+          <td>Long Ball Counter</td>
+          <td>Possession, Out Wide</td>
+        </tr>
+        <tr>
+          <td>Out Wide</td>
+          <td>Quick Counter, Possession</td>
+        </tr>
+        <tr>
+          <td>Long Ball</td>
+          <td>Possession, Out Wide, Long Ball Counter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>
