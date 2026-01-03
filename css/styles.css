@@ -409,7 +409,7 @@ body {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: var(--color-accent);
+  background: #22c55e;
   color: white;
   border: none;
   border-radius: 2rem;
@@ -417,14 +417,15 @@ body {
   font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
-  box-shadow: var(--shadow-md);
-  transition: background var(--transition), transform var(--transition);
+  box-shadow: var(--shadow-md), 0 0 20px rgba(34, 197, 94, 0.3);
+  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
   z-index: 100;
 }
 
 .playstyle-guide-btn:hover {
-  background: var(--color-accent-hover);
+  background: #4ade80;
   transform: translateY(-2px);
+  box-shadow: var(--shadow-md), 0 0 25px rgba(74, 222, 128, 0.4);
 }
 
 /* Playstyle Guide Popup */
@@ -432,7 +433,7 @@ body {
   position: fixed;
   bottom: 5rem;
   right: 1.1rem;
-  background: var(--color-bg-secondary);
+  background: #232836;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
@@ -526,7 +527,8 @@ body {
 }
 
 .playstyle-guide-popup__table td:last-child {
-  color: var(--color-accent-hover);
+  color: #fbbf24;
+  font-weight: 600;
 }
 
 /* Responsive */
