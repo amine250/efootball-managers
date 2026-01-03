@@ -47,6 +47,12 @@ body {
   margin-bottom: 3rem;
 }
 
+.header__logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 .header__title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -535,6 +541,10 @@ body {
 @media (max-width: 600px) {
   .app {
     padding: 1rem;
+  }
+
+  .header__logo {
+    width: 25%;
   }
 
   .header__title {
