@@ -537,6 +537,31 @@ body {
   font-weight: 600;
 }
 
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  margin-top: 2rem;
+}
+
+.footer__github-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  transition: color var(--transition), transform var(--transition);
+}
+
+.footer__github-link:hover {
+  color: var(--color-text);
+  transform: scale(1.1);
+}
+
+.footer__github-icon {
+  width: 24px;
+  height: 24px;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .app {
