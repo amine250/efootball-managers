@@ -135,8 +135,14 @@ function applyFilters() {
     }
 
     // Link-up play filter
-    if (linkupFilter && (!manager.linkUpPlay || manager.linkUpPlay.name !== linkupFilter)) {
-      return false;
+    if (linkupFilter) {
+      if (linkupFilter === 'none') {
+        if (manager.linkUpPlay !== null) return false;
+      } else if (linkupFilter === 'has-linkup') {
+        if (manager.linkUpPlay === null) return false;
+      } else if (!manager.linkUpPlay || manager.linkUpPlay.name !== linkupFilter) {
+        return false;
+      }
     }
 
     return true;
