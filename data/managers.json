@@ -1014,5 +1014,33 @@
       "longBall": 63
     },
     "linkUpPlay": null
+  },
+  {
+    "id": "xalonso3",
+    "name": "Xabi Alonso",
+    "photo": "data/photos/alonso3.png",
+    "releaseDate": "2026-01-08",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" },
+      { "stat": "Finishing", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 71,
+      "quickCounter": 89,
+      "longBallCounter": 54,
+      "outWide": 89,
+      "longBall": 56
+    },
+    "linkUpPlay": {
+      "name": "Breakthrough Pass A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["AMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
