@@ -1042,5 +1042,61 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "klopp",
+    "name": "Jürgen Klopp",
+    "photo": "data/photos/klopp.png",
+    "releaseDate": "2026-02-05",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" },
+      { "stat": "Aggression", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 89,
+      "longBallCounter": 59,
+      "outWide": 70,
+      "longBall": 57
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass C",
+      "centerPiece": {
+        "playingStyle": "Build Up",
+        "positions": ["CB"]
+      },
+      "keyMan": {
+        "playingStyle": "Prolific Winger",
+        "positions": ["LWF", "RWF"]
+      }
+    }
+  },
+  {
+    "id": "kovac",
+    "name": "Niko Kovač",
+    "photo": "data/photos/kovac.png",
+    "releaseDate": "2026-02-05",
+    "boosterEffects": [
+      { "stat": "Kicking Power", "value": "+1" },
+      { "stat": "Tight Possession", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 65,
+      "quickCounter": 63,
+      "longBallCounter": 89,
+      "outWide": 89,
+      "longBall": 56
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass A",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["DMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
