@@ -1098,5 +1098,33 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "chivu",
+    "name": "Cristian Chivu",
+    "photo": "data/photos/chivu.png",
+    "releaseDate": "2026-02-19",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 58,
+      "quickCounter": 89,
+      "longBallCounter": 62,
+      "outWide": 89,
+      "longBall": 55
+    },
+    "linkUpPlay": {
+      "name": "Aggressive Centring A",
+      "centerPiece": {
+        "playingStyle": "Cross Specialist",
+        "positions": ["LMF", "RMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
