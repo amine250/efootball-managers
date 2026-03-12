@@ -1126,5 +1126,33 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "beckenbauer2",
+    "name": "F. Beckenbauer",
+    "photo": "data/photos/beckenbauer2.png",
+    "releaseDate": "2026-03-12",
+    "boosterEffects": [
+      { "stat": "Dribbling", "value": "+1" },
+      { "stat": "Defensive Awareness", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 65,
+      "quickCounter": 57,
+      "longBallCounter": 89,
+      "outWide": 60,
+      "longBall": 89
+    },
+    "linkUpPlay": {
+      "name": "Breakthrough Pass B",
+      "centerPiece": {
+        "playingStyle": "Box-to-Box",
+        "positions": ["CMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
