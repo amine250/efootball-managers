@@ -1154,5 +1154,33 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "cruyff2",
+    "name": "Johan Cruyff",
+    "photo": "data/photos/cruyff2.png",
+    "releaseDate": "2026-04-23",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" },
+      { "stat": "Balance", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 65,
+      "longBallCounter": 54,
+      "outWide": 89,
+      "longBall": 54
+    },
+    "linkUpPlay": {
+      "name": "1-2 Cut-in A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["LMF", "RMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
