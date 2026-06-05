@@ -1182,5 +1182,61 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "martinez3",
+    "name": "R. Martinez",
+    "photo": "data/photos/martinez3.png",
+    "releaseDate": "2026-06-04",
+    "boosterEffects": [
+      { "stat": "Finishing", "value": "+1" },
+      { "stat": "Attacking Awareness", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 58,
+      "quickCounter": 90,
+      "longBallCounter": 70,
+      "outWide": 64,
+      "longBall": 89
+    },
+    "linkUpPlay": {
+      "name": "Diagonal Long Pass B",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["LWF", "RWF"]
+      },
+      "keyMan": {
+        "playingStyle": "Attacking Full-back",
+        "positions": ["LB", "RB"]
+      }
+    }
+  },
+  {
+    "id": "tuchel2",
+    "name": "Thomas Tuchel",
+    "photo": "data/photos/tuchel2.png",
+    "releaseDate": "2026-06-04",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 90,
+      "quickCounter": 89,
+      "longBallCounter": 59,
+      "outWide": 70,
+      "longBall": 58
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass A",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["DMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
