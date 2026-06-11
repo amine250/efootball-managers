@@ -1238,5 +1238,117 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "montella2",
+    "name": "V. Montella",
+    "photo": "data/photos/montella2.png",
+    "releaseDate": "2026-06-11",
+    "boosterEffects": [
+      { "stat": "Acceleration", "value": "+1" },
+      { "stat": "Tight Possession", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 61,
+      "quickCounter": 89,
+      "longBallCounter": 58,
+      "outWide": 89,
+      "longBall": 68
+    },
+    "linkUpPlay": {
+      "name": "Breakthrough Pass B",
+      "centerPiece": {
+        "playingStyle": "Box-to-Box",
+        "positions": ["CMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
+  },
+  {
+    "id": "nagelsmann",
+    "name": "J. Nagelsmann",
+    "photo": "data/photos/nagelsmann.png",
+    "releaseDate": "2026-06-11",
+    "boosterEffects": [
+      { "stat": "Dribbling", "value": "+1" },
+      { "stat": "Physical Contact", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 62,
+      "quickCounter": 68,
+      "longBallCounter": 89,
+      "outWide": 59,
+      "longBall": 89
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass C",
+      "centerPiece": {
+        "playingStyle": "Build Up",
+        "positions": ["CB"]
+      },
+      "keyMan": {
+        "playingStyle": "Prolific Winger",
+        "positions": ["LWF", "RWF"]
+      }
+    }
+  },
+  {
+    "id": "rkoeman3",
+    "name": "Ronald Koeman",
+    "photo": "data/photos/koeman3.png",
+    "releaseDate": "2026-06-11",
+    "boosterEffects": [
+      { "stat": "Kicking Power", "value": "+1" },
+      { "stat": "Jumping", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 60,
+      "quickCounter": 65,
+      "longBallCounter": 89,
+      "outWide": 89,
+      "longBall": 69
+    },
+    "linkUpPlay": {
+      "name": "Over-the-Top Pass B",
+      "centerPiece": {
+        "playingStyle": "Orchestrator",
+        "positions": ["CMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Prolific Winger",
+        "positions": ["LWF", "RWF"]
+      }
+    }
+  },
+  {
+    "id": "deschamps2",
+    "name": "D. Deschamps",
+    "photo": "data/photos/deschamps2.png",
+    "releaseDate": "2026-06-11",
+    "boosterEffects": [
+      { "stat": "Speed", "value": "+1" },
+      { "stat": "Ball Control", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 89,
+      "quickCounter": 68,
+      "longBallCounter": 89,
+      "outWide": 59,
+      "longBall": 63
+    },
+    "linkUpPlay": {
+      "name": "Breakthrough Pass A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["AMF"]
+      },
+      "keyMan": {
+        "playingStyle": "Goal Poacher",
+        "positions": ["CF"]
+      }
+    }
   }
 ]
