@@ -539,7 +539,10 @@ body {
 
 /* Footer */
 .footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
   padding: 2rem 0 1rem;
   margin-top: 2rem;
 }
@@ -560,6 +563,68 @@ body {
 .footer__github-icon {
   width: 24px;
   height: 24px;
+}
+
+/* Buy Me a Coffee */
+.footer__coffee {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f6c945;
+  background: rgba(246, 201, 69, 0.08);
+  border: 1px solid rgba(246, 201, 69, 0.28);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color var(--transition), background var(--transition),
+    border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.footer__coffee:hover {
+  color: #1a1d27;
+  background: #ffdd00;
+  border-color: #ffdd00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 221, 0, 0.28);
+}
+
+.footer__coffee-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.footer__steam {
+  transform-origin: center;
+  animation: coffeeSteam 2.4s ease-in-out infinite;
+}
+
+.footer__steam--2 {
+  animation-delay: 0.4s;
+}
+
+.footer__steam--3 {
+  animation-delay: 0.8s;
+}
+
+@keyframes coffeeSteam {
+  0%, 100% {
+    opacity: 0.35;
+    transform: translateY(0.5px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer__steam {
+    animation: none;
+  }
 }
 
 /* Responsive */
