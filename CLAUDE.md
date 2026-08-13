@@ -35,19 +35,25 @@ efootball-managers/
     longBall: 40,
     outWide: 75
   },
-  linkUpPlay: {                         // Can be null
-    name: "False Nine",
-    centerPiece: {
-      playingStyle: "Creative Playmaker",
-      positions: ["CF", "SS"]
-    },
-    keyMan: {
-      playingStyle: "Roaming Flank",
-      positions: ["LWF", "RWF"]
+  linkUpPlays: [                        // 0-2 link-up plays (omit or [] for none)
+    {
+      name: "False Nine",
+      centerPiece: {
+        playingStyle: "Creative Playmaker",
+        positions: ["CF", "SS"]
+      },
+      keyMan: {
+        playingStyle: "Roaming Flank",
+        positions: ["LWF", "RWF"]
+      }
     }
-  }
+  ]
 }
 ```
+
+The legacy `linkUpPlay` field (a single object, or `null` for none) is still accepted and
+normalized into `linkUpPlays` at load time, so older entries need no migration. Use
+`linkUpPlays` for new managers.
 
 ### Field Constraints
 
@@ -58,7 +64,8 @@ efootball-managers/
 | photo | string | Valid URL |
 | boosterEffects | array | 1-2 items, each has `stat` (string) and `value` ("+1") |
 | teamPlaystyleProficiency | object | 5 fixed keys, values 10-99 |
-| linkUpPlay | object/null | If present, must have name, centerPiece, keyMan |
+| linkUpPlays | array | 0-2 items, each has name, centerPiece, keyMan |
+| linkUpPlay | object/null | Legacy single-play form; normalized to `linkUpPlays` |
 
 ## Adding/Editing Managers
 

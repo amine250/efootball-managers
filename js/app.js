@@ -27,6 +27,16 @@ function formatReleaseDate(dateString) {
 let managers = [];
 let filteredManagers = [];
 
+/**
+ * Normalize link-up play data to an array.
+ * Supports `linkUpPlays` (array, 0-2 items) and the legacy `linkUpPlay` (object or null).
+ */
+function normalizeManager(manager) {
+  const source = manager.linkUpPlays !== undefined ? manager.linkUpPlays : manager.linkUpPlay;
+  const linkUpPlays = source ? (Array.isArray(source) ? source.filter(Boolean) : [source]) : [];
+  return { ...manager, linkUpPlays };
+}
+
 // DOM Elements
 const elements = {
   grid: document.getElementById('managers-grid'),
@@ -46,7 +56,7 @@ const elements = {
 async function loadManagers() {
   try {
     const response = await fetch('data/managers.json');
-    managers = await response.json();
+    managers = (await response.json()).map(normalizeManager);
     populateBoosterFilter();
     populateLinkupFilter();
     applyFilters();
@@ -83,9 +93,9 @@ function populateBoosterFilter() {
 function populateLinkupFilter() {
   const linkups = new Set();
   managers.forEach(manager => {
-    if (manager.linkUpPlay && manager.linkUpPlay.name) {
-      linkups.add(manager.linkUpPlay.name);
-    }
+    manager.linkUpPlays.forEach(linkup => {
+      if (linkup.name) linkups.add(linkup.name);
+    });
   });
 
   const sortedLinkups = Array.from(linkups).sort();
@@ -136,11 +146,14 @@ function applyFilters() {
 
     // Link-up play filter
     if (linkupFilter) {
+      const linkupCount = manager.linkUpPlays.length;
       if (linkupFilter === 'none') {
-        if (manager.linkUpPlay !== null) return false;
+        if (linkupCount > 0) return false;
       } else if (linkupFilter === 'has-linkup') {
-        if (manager.linkUpPlay === null) return false;
-      } else if (!manager.linkUpPlay || manager.linkUpPlay.name !== linkupFilter) {
+        if (linkupCount === 0) return false;
+      } else if (linkupFilter === 'multiple') {
+        if (linkupCount < 2) return false;
+      } else if (!manager.linkUpPlays.some(l => l.name === linkupFilter)) {
         return false;
       }
     }
@@ -196,8 +209,10 @@ function createManagerCard(manager) {
     .map(([key, value]) => createPlaystyleBar(PLAYSTYLE_LABELS[key], value))
     .join('');
 
-  const linkupHtml = manager.linkUpPlay
-    ? createLinkupHtml(manager.linkUpPlay)
+  const linkupCount = manager.linkUpPlays.length;
+  const linkupTitle = `Link-Up Play${linkupCount > 1 ? 's' : ''}`;
+  const linkupHtml = linkupCount > 0
+    ? `<div class="linkups">${manager.linkUpPlays.map(createLinkupHtml).join('')}</div>`
     : '<div class="linkup--none">No Link-Up Play</div>';
 
   const releaseDateHtml = `<div class="card__release-date">Released: ${formatReleaseDate(manager.releaseDate)}</div>`;
@@ -219,7 +234,7 @@ function createManagerCard(manager) {
       </section>
 
       <section class="card__section">
-        <h4 class="card__section-title">Link-Up Play</h4>
+        <h4 class="card__section-title">${linkupTitle}</h4>
         ${linkupHtml}
       </section>
     </article>

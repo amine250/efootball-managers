@@ -358,6 +358,12 @@ body {
 }
 
 /* Link-Up Play */
+.linkups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 .linkup {
   background: var(--color-bg-tertiary);
   border-radius: var(--radius-md);
