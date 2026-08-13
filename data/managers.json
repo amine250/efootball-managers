@@ -1414,5 +1414,47 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "conte",
+    "name": "Antonio Conte",
+    "photo": "data/photos/conte.png",
+    "releaseDate": "2026-08-13",
+    "boosterEffects": [
+      { "stat": "Defensive Awareness", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 68,
+      "quickCounter": 90,
+      "longBallCounter": 73,
+      "outWide": 89,
+      "longBall": 68,
+      "overload": 69
+    },
+    "linkUpPlays": 
+      {
+        "name": "Over-the-Top Pass C",
+        "centerPiece": {
+          "playingStyle": "Build Up",
+          "positions": ["CB"]
+        },
+        "keyMan": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in B",
+        "centerPiece": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      }
+
   }
 ]
