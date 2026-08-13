@@ -8,6 +8,7 @@
   --color-accent: #6366f1;
   --color-accent-hover: #818cf8;
   --color-success: #22c55e;
+  --color-info: #3b82f6;
   --color-warning: #f59e0b;
 
   --radius-sm: 6px;
@@ -343,6 +344,10 @@ body {
   height: 100%;
   border-radius: 3px;
   transition: width 0.5s ease;
+}
+
+.playstyle__fill--elite {
+  background: linear-gradient(90deg, var(--color-info), #60a5fa);
 }
 
 .playstyle__fill--high {

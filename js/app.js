@@ -262,7 +262,8 @@ function createPlaystyleBar(name, value) {
   }
 
   let fillClass = 'playstyle__fill--low';
-  if (value >= 80) fillClass = 'playstyle__fill--high';
+  if (value >= 90) fillClass = 'playstyle__fill--elite';
+  else if (value >= 80) fillClass = 'playstyle__fill--high';
   else if (value >= 70) fillClass = 'playstyle__fill--medium';
 
   return `
