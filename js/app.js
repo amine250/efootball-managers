@@ -8,7 +8,8 @@ const PLAYSTYLE_LABELS = {
   longBallCounter: 'Long Ball Counter',
   quickCounter: 'Quick Counter',
   longBall: 'Long Ball',
-  outWide: 'Out Wide'
+  outWide: 'Out Wide',
+  overload: 'Overload'
 };
 
 /**
@@ -173,8 +174,10 @@ function applyFilters() {
       const dateB = b.releaseDate ? new Date(b.releaseDate) : new Date(0);
       return sortBy === 'releaseDate-desc' ? dateB - dateA : dateA - dateB;
     } else {
-      // Sort by playstyle value (descending)
-      return b.teamPlaystyleProficiency[sortBy] - a.teamPlaystyleProficiency[sortBy];
+      // Sort by playstyle value (descending), N/A values last
+      const valueA = a.teamPlaystyleProficiency[sortBy] ?? -1;
+      const valueB = b.teamPlaystyleProficiency[sortBy] ?? -1;
+      return valueB - valueA;
     }
   });
 
@@ -245,6 +248,19 @@ function createManagerCard(manager) {
  * Create HTML for a playstyle progress bar
  */
 function createPlaystyleBar(name, value) {
+  // Playstyles introduced after a manager's release have no rating yet
+  if (value === null || value === undefined) {
+    return `
+      <div class="playstyle playstyle--na">
+        <div class="playstyle__header">
+          <span class="playstyle__name">${name}</span>
+          <span class="playstyle__value">N/A</span>
+        </div>
+        <div class="playstyle__bar"></div>
+      </div>
+    `;
+  }
+
   let fillClass = 'playstyle__fill--low';
   if (value >= 80) fillClass = 'playstyle__fill--high';
   else if (value >= 70) fillClass = 'playstyle__fill--medium';

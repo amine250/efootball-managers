@@ -28,12 +28,13 @@ efootball-managers/
   boosterEffects: [                     // Array of 1-2 booster effects
     { stat: "Tight Possession", value: "+1" }
   ],
-  teamPlaystyleProficiency: {           // All values: 10-99
+  teamPlaystyleProficiency: {           // All values: 10-99 (or null for "N/A")
     possessionGame: 95,
     longBallCounter: 45,
     quickCounter: 60,
     longBall: 40,
-    outWide: 75
+    outWide: 75,
+    overload: 82                        // null on managers released before Overload existed
   },
   linkUpPlays: [                        // 0-2 link-up plays (omit or [] for none)
     {
@@ -51,6 +52,10 @@ efootball-managers/
 }
 ```
 
+`overload` is the newest playstyle. Managers released before it was introduced carry
+`overload: null`, which renders as an "N/A" bar, never matches the 80+ playstyle filter, and
+sorts last under "Overload (Highest)". Give new managers a real 10-99 value.
+
 The legacy `linkUpPlay` field (a single object, or `null` for none) is still accepted and
 normalized into `linkUpPlays` at load time, so older entries need no migration. Use
 `linkUpPlays` for new managers.
@@ -63,7 +68,7 @@ normalized into `linkUpPlays` at load time, so older entries need no migration. 
 | name | string | Required |
 | photo | string | Valid URL |
 | boosterEffects | array | 1-2 items, each has `stat` (string) and `value` ("+1") |
-| teamPlaystyleProficiency | object | 5 fixed keys, values 10-99 |
+| teamPlaystyleProficiency | object | 6 fixed keys, values 10-99, or `null` for an unrated playstyle |
 | linkUpPlays | array | 0-2 items, each has name, centerPiece, keyMan |
 | linkUpPlay | object/null | Legacy single-play form; normalized to `linkUpPlays` |
 

@@ -357,6 +357,29 @@ body {
   background: linear-gradient(90deg, #ef4444, #f87171);
 }
 
+/* Playstyle with no rating (introduced after the manager's release) */
+.playstyle--na .playstyle__name,
+.playstyle--na .playstyle__value {
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+}
+
+.playstyle--na .playstyle__value {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.playstyle--na .playstyle__bar {
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--color-bg-tertiary),
+    var(--color-bg-tertiary) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  opacity: 0.7;
+}
+
 /* Link-Up Play */
 .linkups {
   display: flex;
