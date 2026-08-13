@@ -1457,4 +1457,33 @@
       }
     ]
   }
+  {
+    "id": "lampard2",
+    "name": "Frank Lampard",
+    "photo": "data/photos/lampard2.png",
+    "releaseDate": "2026-08-13",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Defensive Engagement", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 75,
+      "quickCounter": 60,
+      "longBallCounter": 58,
+      "outWide": 69,
+      "longBall": 89,
+      "overload": 89
+    },
+    "linkUpPlay": {
+      "name": "1-2 Cut-in A",
+      "centerPiece": {
+        "playingStyle": "Creative Playmaker",
+        "positions": ["LWF", "RWF"]
+      },
+      "keyMan": {
+        "playingStyle": "Fox in the Box",
+        "positions": ["CF"]
+      }
+    }
+  }
 ]
