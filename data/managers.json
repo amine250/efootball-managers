@@ -1432,7 +1432,7 @@
       "longBall": 68,
       "overload": 69
     },
-    "linkUpPlays": 
+    "linkUpPlays": [
       {
         "name": "Over-the-Top Pass C",
         "centerPiece": {
@@ -1455,6 +1455,6 @@
           "positions": ["CF"]
         }
       }
-
+    ]
   }
 ]
