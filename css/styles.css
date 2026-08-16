@@ -108,16 +108,46 @@ body {
 }
 
 .filters__reset {
+  position: relative;
   background: none;
   border: none;
   color: var(--color-accent);
   cursor: pointer;
+  font-family: inherit;
   font-size: 0.875rem;
-  transition: color var(--transition);
+  line-height: 1;
+  padding: 0.5rem 0.75rem;
+  /* Negative margins keep the header height and the right edge unchanged */
+  margin: -0.5rem -0.75rem -0.5rem 0;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+}
+
+/* Extends the tap target to 44px without affecting layout */
+.filters__reset::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  height: 100%;
+  min-height: 44px;
 }
 
 .filters__reset:hover {
+  background: var(--color-bg-tertiary);
   color: var(--color-accent-hover);
+}
+
+.filters__reset:focus-visible {
+  outline: none;
+  color: var(--color-accent-hover);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.filters__reset:active {
+  background: var(--color-border);
 }
 
 .filter-group {
