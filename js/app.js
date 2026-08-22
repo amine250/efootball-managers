@@ -320,6 +320,24 @@ function resetFilters() {
 
 // Event Listeners
 elements.search.addEventListener('input', applyFilters);
+
+// Select existing text when the field is clicked/focused, but let a second
+// click inside the field place the caret normally.
+let searchSelectOnMouseUp = false;
+elements.search.addEventListener('focus', () => {
+  searchSelectOnMouseUp = true;
+  elements.search.select();
+});
+elements.search.addEventListener('mouseup', (e) => {
+  if (searchSelectOnMouseUp) {
+    e.preventDefault();
+    searchSelectOnMouseUp = false;
+  }
+});
+elements.search.addEventListener('blur', () => {
+  searchSelectOnMouseUp = false;
+});
+
 elements.sortBy.addEventListener('change', applyFilters);
 elements.playstyleCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
 elements.boosterFilter.addEventListener('change', applyFilters);
