@@ -345,14 +345,24 @@ elements.sortBy.addEventListener('change', applyFilters);
 elements.playstyleCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
 elements.boosterFilter.addEventListener('change', applyFilters);
 elements.linkupFilter.addEventListener('change', applyFilters);
-// Keep the button from taking focus on tap/click, so the search field is the
-// only thing focused when resetFilters() runs (iOS Safari otherwise refuses
-// to show the keyboard). Cancelling pointerdown still lets click fire.
-elements.resetBtn.addEventListener('pointerdown', (e) => {
+// Reset button. iOS Safari only opens the keyboard for a focus() made
+// synchronously inside a *touch* handler -- the synthetic click that follows a
+// tap no longer carries that permission, which is why focusing from 'click'
+// does nothing on a phone. So handle taps on touchend (cancelling it suppresses
+// the synthetic click) and keep 'click' for mouse and keyboard activation.
+let lastResetTouch = 0;
+
+elements.resetBtn.addEventListener('touchend', (e) => {
   e.preventDefault();
-  elements.search.focus();
+  lastResetTouch = Date.now();
+  resetFilters();
+}, { passive: false });
+
+elements.resetBtn.addEventListener('click', () => {
+  // Skip the synthetic click if a browser fires it despite the preventDefault.
+  if (Date.now() - lastResetTouch < 500) return;
+  resetFilters();
 });
-elements.resetBtn.addEventListener('click', resetFilters);
 
 // Playstyle Guide Popup
 const playstyleGuideBtn = document.getElementById('playstyle-guide-btn');
