@@ -316,6 +316,7 @@ function resetFilters() {
   elements.boosterFilter.value = '';
   elements.linkupFilter.value = '';
   applyFilters();
+  elements.search.focus();
 }
 
 // Event Listeners
