@@ -310,13 +310,15 @@ function createLinkupHtml(linkup) {
  * Reset all filters to default values
  */
 function resetFilters() {
+  // Focus first: iOS Safari only raises the keyboard when focus() runs
+  // inside the user gesture, and before the grid re-render.
+  elements.search.focus();
   elements.search.value = '';
   elements.sortBy.value = 'releaseDate-desc';
   elements.playstyleCheckboxes.forEach(cb => cb.checked = false);
   elements.boosterFilter.value = '';
   elements.linkupFilter.value = '';
   applyFilters();
-  elements.search.focus();
 }
 
 // Event Listeners
@@ -343,6 +345,13 @@ elements.sortBy.addEventListener('change', applyFilters);
 elements.playstyleCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
 elements.boosterFilter.addEventListener('change', applyFilters);
 elements.linkupFilter.addEventListener('change', applyFilters);
+// Keep the button from taking focus on tap/click, so the search field is the
+// only thing focused when resetFilters() runs (iOS Safari otherwise refuses
+// to show the keyboard). Cancelling pointerdown still lets click fire.
+elements.resetBtn.addEventListener('pointerdown', (e) => {
+  e.preventDefault();
+  elements.search.focus();
+});
 elements.resetBtn.addEventListener('click', resetFilters);
 
 // Playstyle Guide Popup
