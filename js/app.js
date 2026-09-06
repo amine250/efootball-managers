@@ -388,3 +388,25 @@ document.addEventListener('click', (e) => {
 
 // Initialize
 loadManagers();
+
+// Ad Slot
+// The Adsterra script is blocked outright by ad blockers and can also return no fill.
+// Either way the container stays empty, so collapse the reserved space instead of
+// leaving a bordered gap above the manager grid.
+const adSlot = document.querySelector('.ad-slot');
+const adContainer = document.getElementById('container-a061f2c80960174464989f9e71a4eab7');
+
+if (adSlot && adContainer) {
+  // Hide once the network has had a fair chance to inject.
+  setTimeout(() => {
+    if (adContainer.childElementCount === 0) adSlot.hidden = true;
+  }, 2500);
+
+  // ...but bring it back if the ad turns up late on a slow connection.
+  new MutationObserver((mutations, observer) => {
+    if (adContainer.childElementCount > 0) {
+      adSlot.hidden = false;
+      observer.disconnect();
+    }
+  }).observe(adContainer, { childList: true });
+}
