@@ -636,19 +636,22 @@ body {
 /* Footer */
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   gap: 1.25rem;
   padding: 2rem 0 1rem;
   margin-top: 2rem;
 }
 
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
 .footer__disclaimer {
-  /* Full-width so it wraps onto its own line below the links. */
-  flex-basis: 100%;
   max-width: 55ch;
-  margin: 0 auto;
   color: var(--color-text-secondary);
   font-size: 0.75rem;
   line-height: 1.5;
