@@ -234,36 +234,33 @@ body {
   gap: 0.25rem;
 }
 
-/* Ad Slot */
+/* Ad Slot - occupies one cell of the manager grid and mirrors .card styling */
 .ad-slot {
-  margin-bottom: 1.5rem;
-  padding: 0.75rem;
   background: var(--color-bg-secondary);
-  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  /* Reserve space so the injected ad does not shift the grid (CLS) */
-  min-height: 260px;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  /* Only take the ad's own height, not the full (very tall) grid row. */
+  align-self: start;
+  /* Reserve space so the injected ad does not shift the cards (CLS) */
+  min-height: 200px;
   overflow: hidden;
 }
 
 .ad-slot__label {
   display: block;
-  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--color-text-secondary);
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
 }
 
 .ad-slot img,
 .ad-slot iframe {
   max-width: 100%;
-}
-
-@media (max-width: 600px) {
-  .ad-slot {
-    min-height: 340px;
-  }
+  height: auto;
 }
 
 /* Managers Grid */
@@ -279,10 +276,15 @@ body {
   font-size: 0.9rem;
 }
 
-.managers__grid {
+.managers__content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+}
+
+/* The cards are laid out by .managers__content so the ad slot shares their columns. */
+.managers__grid {
+  display: contents;
 }
 
 .managers__empty {
@@ -757,7 +759,7 @@ body {
     position: static;
   }
 
-  .managers__grid {
+  .managers__content {
     grid-template-columns: 1fr;
   }
 }
