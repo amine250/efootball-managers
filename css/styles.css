@@ -282,8 +282,7 @@ body {
   gap: 1.5rem;
 }
 
-/* Cards and ad slots are both laid out by .managers__content, which lets them share
-   the same columns; the order property (set in js/app.js) weaves them together. */
+/* The cards are laid out by .managers__content so the ad slot shares their columns. */
 .managers__grid {
   display: contents;
 }

@@ -105,8 +105,15 @@
         </div>
 
         <div class="managers__content">
-          <!-- Adsterra native banners are injected here by js/app.js as siblings of
-               #managers-grid, so renderManagers() cannot wipe them. See AD_KEYS. -->
+          <!-- Adsterra native banner. Kept outside #managers-grid so renderManagers()
+               cannot wipe it; display:contents on the grid lets it sit in the same
+               columns as the cards. -->
+          <aside class="ad-slot" aria-label="Advertisement">
+            <span class="ad-slot__label">Sponsored</span>
+            <script async="async" data-cfasync="false" src="https://pl31217902.profitableratecpmnetwork.com/a061f2c80960174464989f9e71a4eab7/invoke.js"></script>
+            <div id="container-a061f2c80960174464989f9e71a4eab7"></div>
+          </aside>
+
           <div class="managers__grid" id="managers-grid">
             <!-- Manager cards will be inserted here -->
           </div>
