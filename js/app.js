@@ -25,6 +25,18 @@ function formatReleaseDate(dateString) {
   });
 }
 
+// Ad Slots
+// One ad per slot, one slot per key. Adsterra limits a key to a single placement per
+// page - invoke.js keeps a global registry of rendered keys and renders nothing for a
+// repeat - so a slot only fills if it has its own key. Slots without one stay hidden
+// (see updateAdSlots), which keeps the grid clean until more keys exist.
+const AD_SCRIPT_HOST = 'https://pl31217902.profitableratecpmnetwork.com';
+const AD_KEYS = [
+  'a061f2c80960174464989f9e71a4eab7'
+];
+// Manager cards between one ad and the next: [ad][card x AD_INTERVAL][ad]...
+const AD_INTERVAL = 3;
+
 let managers = [];
 let filteredManagers = [];
 
@@ -193,17 +205,19 @@ function renderManagers() {
   if (filteredManagers.length === 0) {
     elements.grid.innerHTML = '';
     elements.empty.hidden = false;
+    updateAdSlots();
     return;
   }
 
   elements.empty.hidden = true;
   elements.grid.innerHTML = filteredManagers.map(createManagerCard).join('');
+  updateAdSlots();
 }
 
 /**
  * Create HTML for a manager card
  */
-function createManagerCard(manager) {
+function createManagerCard(manager, index) {
   const boostersHtml = manager.boosterEffects
     .map(e => `<span class="card__booster">${e.stat} ${e.value}</span>`)
     .join('');
@@ -220,8 +234,11 @@ function createManagerCard(manager) {
 
   const releaseDateHtml = `<div class="card__release-date">Released: ${formatReleaseDate(manager.releaseDate)}</div>`;
 
+  // Leave a gap in the order sequence ahead of every AD_INTERVAL-th card for an ad slot.
+  const order = index + Math.floor(index / AD_INTERVAL) + 1;
+
   return `
-    <article class="card">
+    <article class="card" style="order: ${order}">
       <header class="card__header">
         <img src="${manager.photo}" alt="${manager.name}" class="card__photo" loading="lazy">
         <div class="card__info">
@@ -386,27 +403,73 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Initialize
-loadManagers();
+/**
+ * Build one ad slot and kick off its Adsterra script.
+ * The slot is a sibling of #managers-grid, never a child, because renderManagers()
+ * rewrites the grid's innerHTML on every keystroke and would wipe a filled ad.
+ * display:contents on the grid makes cards and slots share the same grid columns,
+ * and the order property weaves the slots back in between the cards.
+ */
+function createAdSlot(key, index) {
+  const el = document.createElement('aside');
+  el.className = 'ad-slot';
+  el.setAttribute('aria-label', 'Advertisement');
+  el.style.order = index * (AD_INTERVAL + 1);
+  el.hidden = true;
 
-// Ad Slot
-// The Adsterra script is blocked outright by ad blockers and can also return no fill.
-// Either way the container stays empty, so collapse the reserved space instead of
-// leaving a bordered gap above the manager grid.
-const adSlot = document.querySelector('.ad-slot');
-const adContainer = document.getElementById('container-a061f2c80960174464989f9e71a4eab7');
+  const label = document.createElement('span');
+  label.className = 'ad-slot__label';
+  label.textContent = 'Sponsored';
 
-if (adSlot && adContainer) {
-  // Hide once the network has had a fair chance to inject.
+  const container = document.createElement('div');
+  container.id = 'container-' + key;
+
+  // Container first: the script looks its target up by id as soon as it runs.
+  el.append(label, container);
+  adContent.appendChild(el);
+
+  const script = document.createElement('script');
+  script.async = true;
+  script.dataset.cfasync = 'false';
+  script.src = AD_SCRIPT_HOST + '/' + key + '/invoke.js';
+  el.appendChild(script);
+
+  // Ad blockers strip the script outright and Adsterra can also return no fill.
+  // Either way the container stays empty, so drop the slot rather than leave a
+  // bordered gap in the middle of the cards.
+  const slot = { el, empty: false };
   setTimeout(() => {
-    if (adContainer.childElementCount === 0) adSlot.hidden = true;
+    if (container.childElementCount === 0) {
+      slot.empty = true;
+      updateAdSlots();
+    }
   }, 2500);
 
   // ...but bring it back if the ad turns up late on a slow connection.
   new MutationObserver((mutations, observer) => {
-    if (adContainer.childElementCount > 0) {
-      adSlot.hidden = false;
+    if (container.childElementCount > 0) {
+      slot.empty = false;
       observer.disconnect();
+      updateAdSlots();
     }
-  }).observe(adContainer, { childList: true });
+  }).observe(container, { childList: true });
+
+  return slot;
 }
+
+/**
+ * Show slot n only once the filtered results actually reach the card it sits in
+ * front of, so a narrow filter (or no results at all) never leaves ads stranded.
+ */
+function updateAdSlots() {
+  adSlots.forEach((slot, index) => {
+    const reached = filteredManagers.length > index * AD_INTERVAL;
+    slot.el.hidden = slot.empty || !reached;
+  });
+}
+
+const adContent = document.querySelector('.managers__content');
+const adSlots = adContent ? AD_KEYS.map(createAdSlot) : [];
+
+// Initialize
+loadManagers();
