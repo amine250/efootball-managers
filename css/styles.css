@@ -76,12 +76,6 @@ body {
   gap: 2rem;
 }
 
-@media (max-width: 900px) {
-  .main {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Filters Sidebar */
 .filters {
   background: var(--color-bg-secondary);
@@ -90,7 +84,24 @@ body {
   height: fit-content;
   position: sticky;
   top: 2rem;
+  /* Keep every filter reachable when the panel is taller than the viewport. */
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
   border: 1px solid var(--color-border);
+}
+
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  /* Once the sidebar stacks above the cards, sticky would pin the full-width
+     panel on top of the content scrolling underneath it. */
+  .filters {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
 }
 
 .filters__header {
@@ -753,10 +764,6 @@ body {
 
   .header__title {
     font-size: 1.8rem;
-  }
-
-  .filters {
-    position: static;
   }
 
   .managers__content {
