@@ -1485,5 +1485,47 @@
         "positions": ["CF"]
       }
     }
+  },
+  {
+    "id": "jmourinho3",
+    "name": "José Mourinho",
+    "photo": "data/photos/jmourinho3.png",
+    "releaseDate": "2026-09-10",
+    "boosterEffects": [
+      { "stat": "Finishing", "value": "+1" },
+      { "stat": "Aggression", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 62,
+      "quickCounter": 82,
+      "longBallCounter": 90,
+      "outWide": 67,
+      "longBall": 75,
+      "overload": 59
+    },
+    "linkUpPlays": [
+      {
+        "name": "Shadow Link A",
+        "centerPiece": {
+          "playingStyle": "Deep-Lying Forward",
+          "positions": ["CF"]
+        },
+        "keyMan": {
+          "playingStyle": "Classic No. 10",
+          "positions": ["AMF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in C",
+        "centerPiece": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Deep-Lying Forward",
+          "positions": ["CF"]
+        }
+      }
+    ]
   }
 ]
