@@ -1527,5 +1527,89 @@
         }
       }
     ]
+  },
+  {
+    "id": "tomoaki",
+    "name": "Makino Tomoaki",
+    "photo": "data/photos/tomoaki.png",
+    "releaseDate": "2026-10-01",
+    "boosterEffects": [
+      { "stat": "Tackling", "value": "+1" },
+      { "stat": "Attacking Awareness", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 65,
+      "quickCounter": 85,
+      "longBallCounter": 76,
+      "outWide": 64,
+      "longBall": 59,
+      "overload": 88
+    },
+    "linkUpPlays": [
+      {
+        "name": "Over-the-Top Pass C",
+        "centerPiece": {
+          "playingStyle": "Build Up",
+          "positions": ["CB"]
+        },
+        "keyMan": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in B",
+        "centerPiece": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "rrodriguez",
+    "name": "R. Rodríguez",
+    "photo": "data/photos/rrodriguez.png",
+    "releaseDate": "2026-10-01",
+    "boosterEffects": [
+      { "stat": "Tight Possession", "value": "+1" },
+      { "stat": "Balance", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 88,
+      "quickCounter": 74,
+      "longBallCounter": 67,
+      "outWide": 64,
+      "longBall": 58,
+      "overload": 85
+    },
+    "linkUpPlays": [
+      {
+        "name": "Over-the-Top Pass A",
+        "centerPiece": {
+          "playingStyle": "Orchestrator",
+          "positions": ["DMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Goal Poacher",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "Breakthrough Pass A",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["AMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Goal Poacher",
+          "positions": ["CF"]
+        }
+      }
+    ]
   }
 ]
