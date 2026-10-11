@@ -1611,5 +1611,47 @@
         }
       }
     ]
+  },
+  {
+    "id": "chivu2",
+    "name": "Cristian Chivu",
+    "photo": "data/photos/chivu2.png",
+    "releaseDate": "2026-10-09",
+    "boosterEffects": [
+      { "stat": "Lofted Pass", "value": "+1" },
+      { "stat": "Low Pass", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 51,
+      "quickCounter": 55,
+      "longBallCounter": 70,
+      "outWide": 90,
+      "longBall": 90,
+      "overload": 56
+    },
+    "linkUpPlays": [
+      {
+        "name": "Aggressive Centring A",
+        "centerPiece": {
+          "playingStyle": "Cross Specialist",
+          "positions": ["LMF", "RMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in A",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["LMF", "RMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      }
+    ]
   }
 ]
