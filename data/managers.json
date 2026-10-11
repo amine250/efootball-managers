@@ -1478,7 +1478,7 @@
       "name": "1-2 Cut-in A",
       "centerPiece": {
         "playingStyle": "Creative Playmaker",
-        "positions": ["LWF", "RWF"]
+        "positions": ["LMF", "RMF"]
       },
       "keyMan": {
         "playingStyle": "Fox in the Box",
