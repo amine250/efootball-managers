@@ -1653,5 +1653,47 @@
         }
       }
     ]
+  },
+  {
+    "id": "klopp2",
+    "name": "Jürgen Klopp",
+    "photo": "data/photos/klopp2.png",
+    "releaseDate": "2026-10-15",
+    "boosterEffects": [
+      { "stat": "Defensive Awareness", "value": "+1" },
+      { "stat": "Stamina", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 63,
+      "quickCounter": 90,
+      "longBallCounter": 72,
+      "outWide": 57,
+      "longBall": 60,
+      "overload": 83
+    },
+    "linkUpPlays": [
+      {
+        "name": "Breakthrough Pass D",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Goal Poacher",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "2-Man Press A",
+        "centerPiece": {
+          "playingStyle": "The Destroyer",
+          "positions": ["CMF"]
+        },
+        "keyMan": {
+          "playingStyle": "The Destroyer",
+          "positions": ["CMF"]
+        }
+      }
+    ]
   }
 ]
