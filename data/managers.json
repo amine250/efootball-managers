@@ -1507,7 +1507,7 @@
       {
         "name": "Shadow Link A",
         "centerPiece": {
-          "playingStyle": "Deep-Lying Forward",
+          "playingStyle": "Deep-lying Forward",
           "positions": ["CF"]
         },
         "keyMan": {
@@ -1522,7 +1522,7 @@
           "positions": ["LWF", "RWF"]
         },
         "keyMan": {
-          "playingStyle": "Deep-Lying Forward",
+          "playingStyle": "Deep-lying Forward",
           "positions": ["CF"]
         }
       }
@@ -1692,6 +1692,48 @@
         "keyMan": {
           "playingStyle": "The Destroyer",
           "positions": ["CMF"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kovac2",
+    "name": "Niko Kovač",
+    "photo": "data/photos/kovac2.png",
+    "releaseDate": "2026-10-22",
+    "boosterEffects": [
+      { "stat": "Ball Control", "value": "+1" },
+      { "stat": "Defensive Engagement", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 90,
+      "quickCounter": 67,
+      "longBallCounter": 59,
+      "outWide": 89,
+      "longBall": 53,
+      "overload": 57
+    },
+    "linkUpPlays": [
+      {
+        "name": "Aggressive Centring B",
+        "centerPiece": {
+          "playingStyle": "Attacking Full-back",
+          "positions": ["LB", "RB"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "Shadow Link B",
+        "centerPiece": {
+          "playingStyle": "Deep-lying Forward",
+          "positions": ["SS"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
         }
       }
     ]
