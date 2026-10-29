@@ -1737,5 +1737,89 @@
         }
       }
     ]
+  },
+  {
+    "id": "ryo",
+    "name": "Adachi Ryo",
+    "photo": "data/photos/ryo.png",
+    "releaseDate": "2026-10-29",
+    "boosterEffects": [
+      { "stat": "Lofted Pass", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 68,
+      "quickCounter": 85,
+      "longBallCounter": 64,
+      "outWide": 88,
+      "longBall": 60,
+      "overload": 75
+    },
+    "linkUpPlays": [
+      {
+        "name": "Aggressive Centring A",
+        "centerPiece": {
+          "playingStyle": "Cross Specialist",
+          "positions": ["LMF", "RMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in A",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["LMF", "RMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
+          "positions": ["CF"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "skibbe",
+    "name": "Michael Skibbe",
+    "photo": "data/photos/skibbe.png",
+    "releaseDate": "2026-10-29",
+    "boosterEffects": [
+      { "stat": "Physical Contact", "value": "+1" },
+      { "stat": "Defensive Engagement", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 66,
+      "quickCounter": 78,
+      "longBallCounter": 88,
+      "outWide": 64,
+      "longBall": 85,
+      "overload": 74
+    },
+    "linkUpPlays": [
+      {
+        "name": "Diagonal Long Pass B",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Attacking Full-back",
+          "positions": ["LWF", "RWF"]
+        }
+      },
+      {
+        "name": "Over-the-Top Pass B",
+        "centerPiece": {
+          "playingStyle": "Orchestrator",
+          "positions": ["CMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        }
+      }
+    ]
   }
 ]
