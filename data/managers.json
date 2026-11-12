@@ -1825,7 +1825,7 @@
   {
     "id": "marteta4",
     "name": "Mikel Arteta",
-    "photo": "data/photos/mrteta4.png",
+    "photo": "data/photos/arteta4.png",
     "releaseDate": "2026-11-12",
     "boosterEffects": [
       { "stat": "Attacking Awareness", "value": "+1" },
