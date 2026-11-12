@@ -1821,5 +1821,47 @@
         }
       }
     ]
+  },
+  {
+    "id": "marteta4",
+    "name": "Mikel Arteta",
+    "photo": "data/photos/mrteta4.png",
+    "releaseDate": "2026-11-12",
+    "boosterEffects": [
+      { "stat": "Attacking Awareness", "value": "+1" },
+      { "stat": "Dribbling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 75,
+      "quickCounter": 65,
+      "longBallCounter": 90,
+      "outWide": 67,
+      "longBall": 58,
+      "overload": 90
+    },
+    "linkUpPlays": [
+      {
+        "name": "Breakthrough Pass C",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["AMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        }
+      },
+      {
+        "name": "1-2 Cut-in C",
+        "centerPiece": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        },
+        "keyMan": {
+          "playingStyle": "Deep-lying Forward",
+          "positions": ["CF"]
+        }
+      }
+    ]
   }
 ]
