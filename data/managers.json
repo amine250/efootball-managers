@@ -1863,5 +1863,47 @@
         }
       }
     ]
+  },
+  {
+    "id": "wenger",
+    "name": "Arsène Wenger",
+    "photo": "data/photos/wenger.png",
+    "releaseDate": "2026-11-12",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Kicking Power", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 90,
+      "quickCounter": 89,
+      "longBallCounter": 66,
+      "outWide": 63,
+      "longBall": 57,
+      "overload": 79
+    },
+    "linkUpPlays": [
+      {
+        "name": "Breakthrough Pass B",
+        "centerPiece": {
+          "playingStyle": "Box-to-Box",
+          "positions": ["CMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Goal Poacher",
+          "positions": ["CF"]
+        }
+      },
+      {
+        "name": "Shadow Link C",
+        "centerPiece": {
+          "playingStyle": "Deep-lying Forward",
+          "positions": ["CF"]
+        },
+        "keyMan": {
+          "playingStyle": "Hole Player",
+          "positions": ["AMF"]
+        }
+      }
+    ]
   }
 ]
