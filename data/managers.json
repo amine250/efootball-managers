@@ -1865,43 +1865,85 @@
     ]
   },
   {
-    "id": "wenger",
-    "name": "Arsène Wenger",
-    "photo": "data/photos/wenger.png",
-    "releaseDate": "2026-11-12",
+    "id": "matsuhashi",
+    "name": "Matsuhashi R.",
+    "photo": "data/photos/matsuhashi.png",
+    "releaseDate": "2026-11-26",
     "boosterEffects": [
-      { "stat": "Low Pass", "value": "+1" },
-      { "stat": "Kicking Power", "value": "+1" }
+      { "stat": "Attacking Awareness", "value": "+1" },
+      { "stat": "Defensive Awareness", "value": "+1" }
     ],
     "teamPlaystyleProficiency": {
-      "possessionGame": 90,
-      "quickCounter": 89,
-      "longBallCounter": 66,
-      "outWide": 63,
-      "longBall": 57,
-      "overload": 79
+      "possessionGame": 86,
+      "quickCounter": 88,
+      "longBallCounter": 69,
+      "outWide": 64,
+      "longBall": 58,
+      "overload": 80
     },
     "linkUpPlays": [
       {
-        "name": "Breakthrough Pass B",
+        "name": "1-2 Cut-in A",
         "centerPiece": {
-          "playingStyle": "Box-to-Box",
-          "positions": ["CMF"]
+          "playingStyle": "Creative Playmaker",
+          "positions": ["AMF"]
         },
         "keyMan": {
-          "playingStyle": "Goal Poacher",
+          "playingStyle": "Fox in the Box",
           "positions": ["CF"]
         }
       },
       {
-        "name": "Shadow Link C",
+        "name": "Shadow Link B",
         "centerPiece": {
           "playingStyle": "Deep-lying Forward",
+          "positions": ["SS"]
+        },
+        "keyMan": {
+          "playingStyle": "Fox in the Box",
           "positions": ["CF"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kenta",
+    "name": "Kawai Kenta",
+    "photo": "data/photos/kenta.png",
+    "releaseDate": "2026-11-26",
+    "boosterEffects": [
+      { "stat": "Low Pass", "value": "+1" },
+      { "stat": "Tackling", "value": "+1" }
+    ],
+    "teamPlaystyleProficiency": {
+      "possessionGame": 75,
+      "quickCounter": 85,
+      "longBallCounter": 70,
+      "outWide": 79,
+      "longBall": 63,
+      "overload": 88
+    },
+    "linkUpPlays": [
+      {
+        "name": "Over-the-Top Pass B",
+        "centerPiece": {
+          "playingStyle": "Orchestrator",
+          "positions": ["CMF"]
+        },
+        "keyMan": {
+          "playingStyle": "Prolific Winger",
+          "positions": ["LWF", "RWF"]
+        }
+      },
+      {
+        "name": "Diagonal Long Pass A",
+        "centerPiece": {
+          "playingStyle": "Creative Playmaker",
+          "positions": ["AMF"]
         },
         "keyMan": {
           "playingStyle": "Hole Player",
-          "positions": ["AMF"]
+          "positions": ["LMF","RMF"]
         }
       }
     ]
