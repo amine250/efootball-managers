@@ -29,12 +29,20 @@ let managers = [];
 let filteredManagers = [];
 
 /**
- * Normalize link-up play data to an array.
- * Supports `linkUpPlays` (array, 0-2 items) and the legacy `linkUpPlay` (object or null).
+ * Resolve a manager's link-up play name references against the shared
+ * definitions in data/link-up-plays.json.
  */
-function normalizeManager(manager) {
-  const source = manager.linkUpPlays !== undefined ? manager.linkUpPlays : manager.linkUpPlay;
-  const linkUpPlays = source ? (Array.isArray(source) ? source.filter(Boolean) : [source]) : [];
+function resolveLinkUpPlays(manager, playIndex) {
+  const names = Array.isArray(manager.linkUpPlays) ? manager.linkUpPlays : [];
+  const linkUpPlays = [];
+  for (const name of names) {
+    const play = playIndex.get(name);
+    if (!play) {
+      console.warn(`Link-up play "${name}" not found in data/link-up-plays.json (manager: ${manager.name})`);
+      continue;
+    }
+    linkUpPlays.push(play);
+  }
   return { ...manager, linkUpPlays };
 }
 
@@ -52,19 +60,34 @@ const elements = {
 };
 
 /**
- * Fetch managers data from JSON file
+ * Fetch JSON from a path, failing on non-2xx responses
+ */
+async function fetchJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+  return response.json();
+}
+
+/**
+ * Fetch managers and the shared link-up play definitions
  */
 async function loadManagers() {
   try {
-    const response = await fetch('data/managers.json');
-    managers = (await response.json()).map(normalizeManager);
+    const [managersData, playDefinitions] = await Promise.all([
+      fetchJson('data/managers.json'),
+      fetchJson('data/link-up-plays.json')
+    ]);
+    const playIndex = new Map(
+      Object.entries(playDefinitions).map(([name, play]) => [name, { name, ...play }])
+    );
+    managers = managersData.map(manager => resolveLinkUpPlays(manager, playIndex));
     populateBoosterFilter();
     populateLinkupFilter();
     applyFilters();
   } catch (error) {
     console.error('Failed to load managers:', error);
     elements.empty.hidden = false;
-    elements.empty.querySelector('p').textContent = 'Failed to load managers data.';
+    elements.empty.querySelector('p').textContent = 'Failed to load manager data.';
   }
 }
 

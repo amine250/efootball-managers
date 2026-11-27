@@ -1,0 +1,70 @@
+{
+  "1-2 Cut-in A": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["LMF", "RMF"] },
+    "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  },
+  "1-2 Cut-in B": {
+    "centerPiece": { "playingStyle": "Prolific Winger", "positions": ["LWF", "RWF"] },
+    "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  },
+  "1-2 Cut-in C": {
+    "centerPiece": { "playingStyle": "Prolific Winger", "positions": ["LWF", "RWF"] },
+    "keyMan": { "playingStyle": "Deep-lying Forward", "positions": ["CF"] }
+  },
+  "2-Man Press A": {
+    "centerPiece": { "playingStyle": "The Destroyer", "positions": ["CMF"] },
+    "keyMan": { "playingStyle": "The Destroyer", "positions": ["CMF"] }
+  },
+  "Aggressive Centring A": {
+    "centerPiece": { "playingStyle": "Cross Specialist", "positions": ["LMF", "RMF"] },
+    "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  },
+  "Aggressive Centring B": {
+    "centerPiece": { "playingStyle": "Attacking Full-back", "positions": ["LB", "RB"] },
+    "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  },
+  "Breakthrough Pass A": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["AMF"] },
+    "keyMan": { "playingStyle": "Goal Poacher", "positions": ["CF"] }
+  },
+  "Breakthrough Pass B": {
+    "centerPiece": { "playingStyle": "Box-to-Box", "positions": ["CMF"] },
+    "keyMan": { "playingStyle": "Goal Poacher", "positions": ["CF"] }
+  },
+  "Breakthrough Pass C": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["AMF"] },
+    "keyMan": { "playingStyle": "Prolific Winger", "positions": ["LWF", "RWF"] }
+  },
+  "Breakthrough Pass D": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["LWF", "RWF"] },
+    "keyMan": { "playingStyle": "Goal Poacher", "positions": ["CF"] }
+  },
+  "Diagonal Long Pass A": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["AMF"] },
+    "keyMan": { "playingStyle": "Hole Player", "positions": ["LMF", "RMF"] }
+  },
+  "Diagonal Long Pass B": {
+    "centerPiece": { "playingStyle": "Creative Playmaker", "positions": ["LWF", "RWF"] },
+    "keyMan": { "playingStyle": "Attacking Full-back", "positions": ["LB", "RB"] }
+  },
+  "Over-the-Top Pass A": {
+    "centerPiece": { "playingStyle": "Orchestrator", "positions": ["DMF"] },
+    "keyMan": { "playingStyle": "Goal Poacher", "positions": ["CF"] }
+  },
+  "Over-the-Top Pass B": {
+    "centerPiece": { "playingStyle": "Orchestrator", "positions": ["CMF"] },
+    "keyMan": { "playingStyle": "Prolific Winger", "positions": ["LWF", "RWF"] }
+  },
+  "Over-the-Top Pass C": {
+    "centerPiece": { "playingStyle": "Build Up", "positions": ["CB"] },
+    "keyMan": { "playingStyle": "Prolific Winger", "positions": ["LWF", "RWF"] }
+  },
+  "Shadow Link A": {
+    "centerPiece": { "playingStyle": "Deep-lying Forward", "positions": ["CF"] },
+    "keyMan": { "playingStyle": "Classic No. 10", "positions": ["AMF"] }
+  },
+  "Shadow Link B": {
+    "centerPiece": { "playingStyle": "Deep-lying Forward", "positions": ["SS"] },
+    "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  }
+}
