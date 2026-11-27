@@ -60,19 +60,27 @@ const elements = {
 };
 
 /**
- * Fetch managers data from JSON file
+ * Fetch JSON from a path, failing on non-2xx responses
+ */
+async function fetchJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+  return response.json();
+}
+
+/**
+ * Fetch managers and the shared link-up play definitions
  */
 async function loadManagers() {
   try {
-    const [managersResponse, playsResponse] = await Promise.all([
-      fetch('data/managers.json'),
-      fetch('data/link-up-plays.json')
+    const [managersData, playDefinitions] = await Promise.all([
+      fetchJson('data/managers.json'),
+      fetchJson('data/link-up-plays.json')
     ]);
-    const playDefinitions = await playsResponse.json();
     const playIndex = new Map(
       Object.entries(playDefinitions).map(([name, play]) => [name, { name, ...play }])
     );
-    managers = (await managersResponse.json()).map(manager => resolveLinkUpPlays(manager, playIndex));
+    managers = managersData.map(manager => resolveLinkUpPlays(manager, playIndex));
     populateBoosterFilter();
     populateLinkupFilter();
     applyFilters();

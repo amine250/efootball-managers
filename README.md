@@ -27,6 +27,7 @@ efootball-managers/
 │   └── app.js          # Application logic
 ├── data/
 │   ├── managers.json   # Manager database
+│   ├── link-up-plays.json # Shared link-up play definitions
 │   └── photos/         # Manager photos
 └── README.md
 ```
@@ -43,7 +44,7 @@ Each manager has the following properties:
 | `releaseDate` | Release date (YYYY-MM-DD) |
 | `boosterEffects` | Array of stat boosts (e.g., `{ "stat": "Speed", "value": "+1" }`) |
 | `teamPlaystyleProficiency` | Proficiency values (10-99) for each playstyle |
-| `linkUpPlay` | Link-up play details or `null` |
+| `linkUpPlays` | 0-2 link-up play names, defined in `data/link-up-plays.json` |
 
 ### Playstyle Proficiency
 
@@ -90,6 +91,7 @@ Then open `http://localhost:8000` in your browser.
 ## Adding Managers
 
 Edit `data/managers.json` to add or modify managers. Follow the existing data structure.
+Link-up plays are defined once in `data/link-up-plays.json` and referenced by name.
 
 ## Tech Stack
 
