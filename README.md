@@ -40,7 +40,7 @@ Each manager has the following properties:
 |-------|-------------|
 | `id` | Unique identifier |
 | `name` | Display name |
-| `photo` | Photo URL |
+| `photo` | Path to a `.webp` file in `data/photos/` (see CLAUDE.md for converting new photos) |
 | `releaseDate` | Release date (YYYY-MM-DD) |
 | `boosterEffects` | Array of stat boosts (e.g., `{ "stat": "Speed", "value": "+1" }`) |
 | `teamPlaystyleProficiency` | Proficiency values (10-99) for each playstyle |
