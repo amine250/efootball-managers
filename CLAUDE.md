@@ -102,7 +102,17 @@ npx serve
 
 ## Deployment
 
-Push to GitHub and enable GitHub Pages from repository settings. Point to the `main` branch root.
+Every push to `main` runs `.github/workflows/deploy.yml`, which builds an optimized copy of
+the site with `.github/scripts/build-site.sh` and deploys it to GitHub Pages (Pages source:
+"GitHub Actions"). The build converts photos and the logo to downsized WebP, compacts the JSON,
+and rewrites photo paths to the `.webp` files. Source files are never modified: keep adding
+photos as PNG and keep the JSON readable.
+
+To preview the optimized build locally (needs `cwebp`: `brew install webp`):
+
+```bash
+.github/scripts/build-site.sh && python3 -m http.server 8000 -d _site
+```
 
 ## Styling Guidelines
 
