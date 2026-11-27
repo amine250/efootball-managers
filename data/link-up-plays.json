@@ -66,5 +66,9 @@
   "Shadow Link B": {
     "centerPiece": { "playingStyle": "Deep-lying Forward", "positions": ["SS"] },
     "keyMan": { "playingStyle": "Fox in the Box", "positions": ["CF"] }
+  },
+  "Shadow Link C": {
+    "centerPiece": { "playingStyle": "Deep-lying Forward", "positions": ["CF"] },
+    "keyMan": { "playingStyle": "Hole Player", "positions": ["AMF"] }
   }
 }
