@@ -2,7 +2,7 @@
   {
     "id": "cfabregas",
     "name": "Cesc Fabregas",
-    "photo": "data/photos/fabregas.png",
+    "photo": "data/photos/fabregas.webp",
     "releaseDate": "2025-10-09",
     "boosterEffects": [
       { "stat": "Lofted Pass", "value": "+1" },
@@ -21,7 +21,7 @@
   {
     "id": "fcapello",
     "name": "Fabio Capello",
-    "photo": "data/photos/capello.png",
+    "photo": "data/photos/capello.webp",
     "releaseDate": "2025-09-04",
     "boosterEffects": [
       { "stat": "Defensive Awareness", "value": "+1" },
@@ -40,7 +40,7 @@
   {
     "id": "ramorim",
     "name": "Ruben Amorim",
-    "photo": "data/photos/amorim.png",
+    "photo": "data/photos/amorim.webp",
     "releaseDate": "2025-08-14",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" },
@@ -59,7 +59,7 @@
   {
     "id": "jmourinho1",
     "name": "José Mourinho",
-    "photo": "data/photos/mourinho1.png",
+    "photo": "data/photos/mourinho1.webp",
     "releaseDate": "2025-08-14",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" },
@@ -78,7 +78,7 @@
   {
     "id": "xalonso1",
     "name": "Xabi Alonso",
-    "photo": "data/photos/alonso1.png",
+    "photo": "data/photos/alonso1.webp",
     "releaseDate": "2025-02-20",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" }
@@ -96,7 +96,7 @@
   {
     "id": "xalonso2",
     "name": "Xabi Alonso",
-    "photo": "data/photos/alonso2.png",
+    "photo": "data/photos/alonso2.webp",
     "releaseDate": "2024-04-11",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" }
@@ -114,7 +114,7 @@
   {
     "id": "hflick1",
     "name": "Hansi Flick",
-    "photo": "data/photos/flick1.png",
+    "photo": "data/photos/flick1.webp",
     "releaseDate": "2025-09-18",
     "boosterEffects": [
       { "stat": "Dribbling", "value": "+1" },
@@ -133,7 +133,7 @@
   {
     "id": "rmartinez",
     "name": "R. Martinez",
-    "photo": "data/photos/martinez.png",
+    "photo": "data/photos/martinez.webp",
     "releaseDate": "2025-07-10",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" },
@@ -152,7 +152,7 @@
   {
     "id": "pkluivert",
     "name": "P. Kluivert",
-    "photo": "data/photos/kluivert.png",
+    "photo": "data/photos/kluivert.webp",
     "releaseDate": "2025-05-22",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
@@ -171,7 +171,7 @@
   {
     "id": "rkoeman1",
     "name": "Ronald Koeman",
-    "photo": "data/photos/koeman1.png",
+    "photo": "data/photos/koeman1.webp",
     "releaseDate": "2025-12-04",
     "boosterEffects": [
       { "stat": "Heading", "value": "+1" },
@@ -190,7 +190,7 @@
   {
     "id": "pguardiola",
     "name": "Pep Guardiola",
-    "photo": "data/photos/guardiola.png",
+    "photo": "data/photos/guardiola.webp",
     "releaseDate": "2025-11-06",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" },
@@ -209,7 +209,7 @@
   {
     "id": "mallegri",
     "name": "M. Allegri",
-    "photo": "data/photos/allegri.png",
+    "photo": "data/photos/allegri.webp",
     "releaseDate": "2025-10-23",
     "boosterEffects": [
       { "stat": "Attacking Awareness", "value": "+1" },
@@ -228,7 +228,7 @@
   {
     "id": "marteta1",
     "name": "Mikel Arteta",
-    "photo": "data/photos/arteta1.png",
+    "photo": "data/photos/arteta1.webp",
     "releaseDate": "2025-12-18",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" },
@@ -247,7 +247,7 @@
   {
     "id": "laroman",
     "name": "Luis A. Roman",
-    "photo": "data/photos/nophoto.png",
+    "photo": "data/photos/nophoto.webp",
     "releaseDate": null,
     "boosterEffects": [],
     "teamPlaystyleProficiency": {
@@ -263,7 +263,7 @@
   {
     "id": "jmourinho2",
     "name": "José Mourinho",
-    "photo": "data/photos/mourinho2.png",
+    "photo": "data/photos/mourinho2.webp",
     "releaseDate": "2025-02-13",
     "boosterEffects": [
       { "stat": "Tackling", "value": "+1" }
@@ -281,7 +281,7 @@
   {
     "id": "rgarcia",
     "name": "Rudi Garcia",
-    "photo": "data/photos/rgarcia.png",
+    "photo": "data/photos/rgarcia.webp",
     "releaseDate": "2025-05-22",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" },
@@ -300,7 +300,7 @@
   {
     "id": "marteta2",
     "name": "Mikel Arteta",
-    "photo": "data/photos/arteta2.png",
+    "photo": "data/photos/arteta2.webp",
     "releaseDate": "2024-10-24",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" },
@@ -319,7 +319,7 @@
   {
     "id": "marteta3",
     "name": "Mikel Arteta",
-    "photo": "data/photos/arteta3.png",
+    "photo": "data/photos/arteta3.webp",
     "releaseDate": "2023-10-07",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" }
@@ -337,7 +337,7 @@
   {
     "id": "inzaghi",
     "name": "Simone Inzaghi",
-    "photo": "data/photos/inzaghi1.png",
+    "photo": "data/photos/inzaghi1.webp",
     "releaseDate": "2025-03-06",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" },
@@ -356,7 +356,7 @@
   {
     "id": "lspalletti",
     "name": "L. Spalletti",
-    "photo": "data/photos/spalletti.png",
+    "photo": "data/photos/spalletti.webp",
     "releaseDate": "2025-05-22",
     "boosterEffects": [
       { "stat": "Defensive Awareness", "value": "+1" },
@@ -375,7 +375,7 @@
   {
     "id": "gasperini",
     "name": "G. P. Gasperini",
-    "photo": "data/photos/gasperini.png",
+    "photo": "data/photos/gasperini.webp",
     "releaseDate": "2025-03-20",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" }
@@ -393,7 +393,7 @@
   {
     "id": "lscaloni",
     "name": "L. Scaloni",
-    "photo": "data/photos/scaloni.png",
+    "photo": "data/photos/scaloni.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" }
@@ -411,7 +411,7 @@
   {
     "id": "deschamps",
     "name": "D. Deschamps",
-    "photo": "data/photos/deschamps.png",
+    "photo": "data/photos/deschamps.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" }
@@ -429,7 +429,7 @@
   {
     "id": "lampard",
     "name": "Frank Lampard",
-    "photo": "data/photos/lampard.png",
+    "photo": "data/photos/lampard.webp",
     "releaseDate": "2024-12-05",
     "boosterEffects": [
       { "stat": "Balance", "value": "+1" }
@@ -447,7 +447,7 @@
   {
     "id": "rijkaard1",
     "name": "Frank Rijkaard",
-    "photo": "data/photos/rijkaard1.png",
+    "photo": "data/photos/rijkaard1.webp",
     "releaseDate": "2025-10-02",
     "boosterEffects": [
       { "stat": "Tight Possession", "value": "+1" },
@@ -466,7 +466,7 @@
   {
     "id": "rijkaard2",
     "name": "Frank Rijkaard",
-    "photo": "data/photos/rijkaard2.png",
+    "photo": "data/photos/rijkaard2.webp",
     "releaseDate": "2025-01-09",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" }
@@ -484,7 +484,7 @@
   {
     "id": "cvalbuena",
     "name": "Cristo Valbuena",
-    "photo": "data/photos/nophoto.png",
+    "photo": "data/photos/nophoto.webp",
     "releaseDate": null,
     "boosterEffects": [],
     "teamPlaystyleProficiency": {
@@ -500,7 +500,7 @@
   {
     "id": "inzaghi2",
     "name": "Simone Inzaghi",
-    "photo": "data/photos/inzaghi2.png",
+    "photo": "data/photos/inzaghi2.webp",
     "releaseDate": "2023-10-19",
     "boosterEffects": [
       { "stat": "Stamina", "value": "+1" }
@@ -518,7 +518,7 @@
   {
     "id": "gattuso",
     "name": "Gennaro Gattuso",
-    "photo": "data/photos/gattuso.png",
+    "photo": "data/photos/gattuso.webp",
     "releaseDate": "2025-12-04",
     "boosterEffects": [
       { "stat": "Tackling", "value": "+1" },
@@ -537,7 +537,7 @@
   {
     "id": "beckenbauer",
     "name": "F. Beckenbauer",
-    "photo": "data/photos/beckenbauer.png",
+    "photo": "data/photos/beckenbauer.webp",
     "releaseDate": "2025-05-15",
     "boosterEffects": [
       { "stat": "Finishing", "value": "+1" },
@@ -556,7 +556,7 @@
   {
     "id": "dstojkovic",
     "name": "D. Stojkovic",
-    "photo": "data/photos/stojkovic.png",
+    "photo": "data/photos/stojkovic.webp",
     "releaseDate": "2024-07-25",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" }
@@ -574,7 +574,7 @@
   {
     "id": "ldelafuente",
     "name": "L. de la Fuente",
-    "photo": "data/photos/delafuente.png",
+    "photo": "data/photos/delafuente.webp",
     "releaseDate": "2024-07-25",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" }
@@ -592,7 +592,7 @@
   {
     "id": "ohenrique",
     "name": "O. Henriques",
-    "photo": "data/photos/ohenrique.png",
+    "photo": "data/photos/ohenrique.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" }
@@ -610,7 +610,7 @@
   {
     "id": "etenhag",
     "name": "Erik ten Hag",
-    "photo": "data/photos/etenhag.png",
+    "photo": "data/photos/etenhag.webp",
     "releaseDate": "2023-10-07",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" }
@@ -628,7 +628,7 @@
   {
     "id": "pguardiola2",
     "name": "Pep Guardiola",
-    "photo": "data/photos/guardiola2.png",
+    "photo": "data/photos/guardiola2.webp",
     "releaseDate": "2024-04-11",
     "boosterEffects": [
       { "stat": "Tight Possession", "value": "+1" }
@@ -646,7 +646,7 @@
   {
     "id": "xavi",
     "name": "Xavi",
-    "photo": "data/photos/xavi.png",
+    "photo": "data/photos/xavi.webp",
     "releaseDate": "2023-10-07",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" }
@@ -664,7 +664,7 @@
   {
     "id": "pioli",
     "name": "Stefano Pioli",
-    "photo": "data/photos/pioli.png",
+    "photo": "data/photos/pioli.webp",
     "releaseDate": "2023-10-19",
     "boosterEffects": [
       { "stat": "Tackling", "value": "+1" }
@@ -682,7 +682,7 @@
   {
     "id": "tuchel",
     "name": "Thomas Tuchel",
-    "photo": "data/photos/tuchel.png",
+    "photo": "data/photos/tuchel.webp",
     "releaseDate": "2023-10-19",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" }
@@ -700,7 +700,7 @@
   {
     "id": "zico",
     "name": "Zico",
-    "photo": "data/photos/zico.png",
+    "photo": "data/photos/zico.webp",
     "releaseDate": "2024-02-01",
     "boosterEffects": [
       { "stat": "Dribbling", "value": "+1" }
@@ -718,7 +718,7 @@
   {
     "id": "rmartinez2",
     "name": "R. Martinez",
-    "photo": "data/photos/martinez2.png",
+    "photo": "data/photos/martinez2.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" }
@@ -736,7 +736,7 @@
   {
     "id": "montella",
     "name": "V. Montella",
-    "photo": "data/photos/montella.png",
+    "photo": "data/photos/montella.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Stamina", "value": "+1" }
@@ -754,7 +754,7 @@
   {
     "id": "southgate",
     "name": "G. Southgate",
-    "photo": "data/photos/southgate.png",
+    "photo": "data/photos/southgate.webp",
     "releaseDate": "2024-06-13",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" }
@@ -772,7 +772,7 @@
   {
     "id": "gerrard",
     "name": "Steven Gerrard",
-    "photo": "data/photos/gerrard.png",
+    "photo": "data/photos/gerrard.webp",
     "releaseDate": "2024-10-10",
     "boosterEffects": [
       { "stat": "Dribbling", "value": "+1" }
@@ -790,7 +790,7 @@
   {
     "id": "vieira",
     "name": "Patrick Vieira",
-    "photo": "data/photos/vieira.png",
+    "photo": "data/photos/vieira.webp",
     "releaseDate": "2024-11-07",
     "boosterEffects": [
       { "stat": "Tackling", "value": "+1" }
@@ -808,7 +808,7 @@
   {
     "id": "hflick2",
     "name": "Hansi Flick",
-    "photo": "data/photos/flick2.png",
+    "photo": "data/photos/flick2.webp",
     "releaseDate": "2024-11-21",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
@@ -827,7 +827,7 @@
   {
     "id": "fonseca",
     "name": "Paulo Fonseca",
-    "photo": "data/photos/fonseca.png",
+    "photo": "data/photos/fonseca.webp",
     "releaseDate": "2024-11-28",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" },
@@ -846,7 +846,7 @@
   {
     "id": "rkoeman2",
     "name": "Ronald Koeman",
-    "photo": "data/photos/koeman2.png",
+    "photo": "data/photos/koeman2.webp",
     "releaseDate": "2024-12-26",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" },
@@ -865,7 +865,7 @@
   {
     "id": "ramorim2",
     "name": "Ruben Amorim",
-    "photo": "data/photos/amorim2.png",
+    "photo": "data/photos/amorim2.webp",
     "releaseDate": "2025-01-16",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" },
@@ -884,7 +884,7 @@
   {
     "id": "kompany",
     "name": "Vincent Kompany",
-    "photo": "data/photos/kompany.png",
+    "photo": "data/photos/kompany.webp",
     "releaseDate": "2025-02-20",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" },
@@ -903,7 +903,7 @@
   {
     "id": "solbakken",
     "name": "Ståle Solbakken",
-    "photo": "data/photos/solbakken.png",
+    "photo": "data/photos/solbakken.webp",
     "releaseDate": "2025-04-10",
     "boosterEffects": [
       { "stat": "Heading", "value": "+1" },
@@ -922,7 +922,7 @@
   {
     "id": "cruyff",
     "name": "Johan Cruyff",
-    "photo": "data/photos/cruyff.png",
+    "photo": "data/photos/cruyff.webp",
     "releaseDate": "2025-04-17",
     "boosterEffects": [
       { "stat": "Tight Possession", "value": "+1" },
@@ -941,7 +941,7 @@
   {
     "id": "buruk",
     "name": "Okan Buruk",
-    "photo": "data/photos/buruk.png",
+    "photo": "data/photos/buruk.webp",
     "releaseDate": "2025-06-12",
     "boosterEffects": [
       { "stat": "Balance", "value": "+1" },
@@ -960,7 +960,7 @@
   {
     "id": "xalonso3",
     "name": "Xabi Alonso",
-    "photo": "data/photos/alonso3.png",
+    "photo": "data/photos/alonso3.webp",
     "releaseDate": "2026-01-08",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" },
@@ -979,7 +979,7 @@
   {
     "id": "klopp",
     "name": "Jürgen Klopp",
-    "photo": "data/photos/klopp.png",
+    "photo": "data/photos/klopp.webp",
     "releaseDate": "2026-02-05",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" },
@@ -998,7 +998,7 @@
   {
     "id": "kovac",
     "name": "Niko Kovač",
-    "photo": "data/photos/kovac.png",
+    "photo": "data/photos/kovac.webp",
     "releaseDate": "2026-02-05",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" },
@@ -1017,7 +1017,7 @@
   {
     "id": "chivu",
     "name": "Cristian Chivu",
-    "photo": "data/photos/chivu.png",
+    "photo": "data/photos/chivu.webp",
     "releaseDate": "2026-02-19",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" },
@@ -1036,7 +1036,7 @@
   {
     "id": "beckenbauer2",
     "name": "F. Beckenbauer",
-    "photo": "data/photos/beckenbauer2.png",
+    "photo": "data/photos/beckenbauer2.webp",
     "releaseDate": "2026-03-12",
     "boosterEffects": [
       { "stat": "Dribbling", "value": "+1" },
@@ -1055,7 +1055,7 @@
   {
     "id": "cruyff2",
     "name": "Johan Cruyff",
-    "photo": "data/photos/cruyff2.png",
+    "photo": "data/photos/cruyff2.webp",
     "releaseDate": "2026-04-23",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" },
@@ -1074,7 +1074,7 @@
   {
     "id": "martinez3",
     "name": "R. Martinez",
-    "photo": "data/photos/martinez3.png",
+    "photo": "data/photos/martinez3.webp",
     "releaseDate": "2026-06-04",
     "boosterEffects": [
       { "stat": "Finishing", "value": "+1" },
@@ -1093,7 +1093,7 @@
   {
     "id": "tuchel2",
     "name": "Thomas Tuchel",
-    "photo": "data/photos/tuchel2.png",
+    "photo": "data/photos/tuchel2.webp",
     "releaseDate": "2026-06-04",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
@@ -1112,7 +1112,7 @@
   {
     "id": "montella2",
     "name": "V. Montella",
-    "photo": "data/photos/montella2.png",
+    "photo": "data/photos/montella2.webp",
     "releaseDate": "2026-06-11",
     "boosterEffects": [
       { "stat": "Acceleration", "value": "+1" },
@@ -1131,7 +1131,7 @@
   {
     "id": "nagelsmann",
     "name": "J. Nagelsmann",
-    "photo": "data/photos/nagelsmann.png",
+    "photo": "data/photos/nagelsmann.webp",
     "releaseDate": "2026-06-11",
     "boosterEffects": [
       { "stat": "Dribbling", "value": "+1" },
@@ -1150,7 +1150,7 @@
   {
     "id": "rkoeman3",
     "name": "Ronald Koeman",
-    "photo": "data/photos/koeman3.png",
+    "photo": "data/photos/koeman3.webp",
     "releaseDate": "2026-06-11",
     "boosterEffects": [
       { "stat": "Kicking Power", "value": "+1" },
@@ -1169,7 +1169,7 @@
   {
     "id": "deschamps2",
     "name": "D. Deschamps",
-    "photo": "data/photos/deschamps2.png",
+    "photo": "data/photos/deschamps2.webp",
     "releaseDate": "2026-06-11",
     "boosterEffects": [
       { "stat": "Speed", "value": "+1" },
@@ -1188,7 +1188,7 @@
   {
     "id": "conte",
     "name": "Antonio Conte",
-    "photo": "data/photos/conte.png",
+    "photo": "data/photos/conte.webp",
     "releaseDate": "2026-08-13",
     "boosterEffects": [
       { "stat": "Defensive Awareness", "value": "+1" },
@@ -1207,7 +1207,7 @@
   {
     "id": "lampard2",
     "name": "Frank Lampard",
-    "photo": "data/photos/lampard2.png",
+    "photo": "data/photos/lampard2.webp",
     "releaseDate": "2026-08-13",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
@@ -1226,7 +1226,7 @@
   {
     "id": "jmourinho3",
     "name": "José Mourinho",
-    "photo": "data/photos/jmourinho3.png",
+    "photo": "data/photos/jmourinho3.webp",
     "releaseDate": "2026-09-10",
     "boosterEffects": [
       { "stat": "Finishing", "value": "+1" },
@@ -1245,7 +1245,7 @@
   {
     "id": "tomoaki",
     "name": "Makino Tomoaki",
-    "photo": "data/photos/tomoaki.png",
+    "photo": "data/photos/tomoaki.webp",
     "releaseDate": "2026-10-01",
     "boosterEffects": [
       { "stat": "Tackling", "value": "+1" },
@@ -1264,7 +1264,7 @@
   {
     "id": "rrodriguez",
     "name": "R. Rodríguez",
-    "photo": "data/photos/rrodriguez.png",
+    "photo": "data/photos/rrodriguez.webp",
     "releaseDate": "2026-10-01",
     "boosterEffects": [
       { "stat": "Tight Possession", "value": "+1" },
@@ -1283,7 +1283,7 @@
   {
     "id": "chivu2",
     "name": "Cristian Chivu",
-    "photo": "data/photos/chivu2.png",
+    "photo": "data/photos/chivu2.webp",
     "releaseDate": "2026-10-09",
     "boosterEffects": [
       { "stat": "Lofted Pass", "value": "+1" },
@@ -1302,7 +1302,7 @@
   {
     "id": "klopp2",
     "name": "Jürgen Klopp",
-    "photo": "data/photos/klopp2.png",
+    "photo": "data/photos/klopp2.webp",
     "releaseDate": "2026-10-15",
     "boosterEffects": [
       { "stat": "Defensive Awareness", "value": "+1" },
@@ -1321,7 +1321,7 @@
   {
     "id": "kovac2",
     "name": "Niko Kovač",
-    "photo": "data/photos/kovac2.png",
+    "photo": "data/photos/kovac2.webp",
     "releaseDate": "2026-10-22",
     "boosterEffects": [
       { "stat": "Ball Control", "value": "+1" },
@@ -1340,7 +1340,7 @@
   {
     "id": "ryo",
     "name": "Adachi Ryo",
-    "photo": "data/photos/ryo.png",
+    "photo": "data/photos/ryo.webp",
     "releaseDate": "2026-10-29",
     "boosterEffects": [
       { "stat": "Lofted Pass", "value": "+1" },
@@ -1359,7 +1359,7 @@
   {
     "id": "skibbe",
     "name": "Michael Skibbe",
-    "photo": "data/photos/skibbe.png",
+    "photo": "data/photos/skibbe.webp",
     "releaseDate": "2026-10-29",
     "boosterEffects": [
       { "stat": "Physical Contact", "value": "+1" },
@@ -1378,7 +1378,7 @@
   {
     "id": "marteta4",
     "name": "Mikel Arteta",
-    "photo": "data/photos/arteta4.png",
+    "photo": "data/photos/arteta4.webp",
     "releaseDate": "2026-11-12",
     "boosterEffects": [
       { "stat": "Attacking Awareness", "value": "+1" },
@@ -1397,7 +1397,7 @@
   {
     "id": "wenger",
     "name": "Arsène Wenger",
-    "photo": "data/photos/wenger.png",
+    "photo": "data/photos/wenger.webp",
     "releaseDate": "2026-11-12",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
@@ -1416,7 +1416,7 @@
   {
     "id": "matsuhashi",
     "name": "Matsuhashi R.",
-    "photo": "data/photos/matsuhashi.png",
+    "photo": "data/photos/matsuhashi.webp",
     "releaseDate": "2026-11-26",
     "boosterEffects": [
       { "stat": "Attacking Awareness", "value": "+1" },
@@ -1435,7 +1435,7 @@
   {
     "id": "kenta",
     "name": "Kawai Kenta",
-    "photo": "data/photos/kenta.png",
+    "photo": "data/photos/kenta.webp",
     "releaseDate": "2026-11-26",
     "boosterEffects": [
       { "stat": "Low Pass", "value": "+1" },
