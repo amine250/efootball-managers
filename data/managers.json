@@ -16,17 +16,7 @@
       "longBall": 57,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass A",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["DMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass A"]
   },
   {
     "id": "fcapello",
@@ -45,17 +35,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass A",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["DMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass A"]
   },
   {
     "id": "ramorim",
@@ -74,17 +54,7 @@
       "longBall": 46,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Aggressive Centring A",
-      "centerPiece": {
-        "playingStyle": "Cross Specialist",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Aggressive Centring A"]
   },
   {
     "id": "jmourinho1",
@@ -103,17 +73,7 @@
       "longBall": 80,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Diagonal Long Pass A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["AMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Hole Player",
-        "positions": ["LMF", "RMF"]
-      }
-    }
+    "linkUpPlays": ["Diagonal Long Pass A"]
   },
   {
     "id": "xalonso1",
@@ -131,7 +91,7 @@
       "longBall": 42,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "xalonso2",
@@ -149,7 +109,7 @@
       "longBall": 28,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "hflick1",
@@ -168,17 +128,7 @@
       "longBall": 45,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Diagonal Long Pass A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["AMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Hole Player",
-        "positions": ["LMF", "RMF"]
-      }
-    }
+    "linkUpPlays": ["Diagonal Long Pass A"]
   },
   {
     "id": "rmartinez",
@@ -197,7 +147,7 @@
       "longBall": 53,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "pkluivert",
@@ -216,7 +166,7 @@
       "longBall": 48,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "rkoeman1",
@@ -235,17 +185,7 @@
       "longBall": 61,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Aggressive Centring A",
-      "centerPiece": {
-        "playingStyle": "Cross Specialist",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Aggressive Centring A"]
   },
   {
     "id": "pguardiola",
@@ -264,17 +204,7 @@
       "longBall": 51,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Diagonal Long Pass B",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["LWF", "RWF"]
-      },
-      "keyMan": {
-        "playingStyle": "Attacking Full-back",
-        "positions": ["LB", "RB"]
-      }
-    }
+    "linkUpPlays": ["Diagonal Long Pass B"]
   },
   {
     "id": "mallegri",
@@ -293,17 +223,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Aggressive Centring A",
-      "centerPiece": {
-        "playingStyle": "Cross Specialist",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Aggressive Centring A"]
   },
   {
     "id": "marteta1",
@@ -322,17 +242,7 @@
       "longBall": 54,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass B",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["CMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Prolific Winger",
-        "positions": ["LWF", "RWF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass B"]
   },
   {
     "id": "laroman",
@@ -348,7 +258,7 @@
       "longBall": 34,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "jmourinho2",
@@ -366,7 +276,7 @@
       "longBall": 66,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "rgarcia",
@@ -385,7 +295,7 @@
       "longBall": 69,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "marteta2",
@@ -404,7 +314,7 @@
       "longBall": 30,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "marteta3",
@@ -422,7 +332,7 @@
       "longBall": 20,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "inzaghi",
@@ -441,7 +351,7 @@
       "longBall": 43,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "lspalletti",
@@ -460,7 +370,7 @@
       "longBall": 46,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "gasperini",
@@ -478,7 +388,7 @@
       "longBall": 41,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "lscaloni",
@@ -496,7 +406,7 @@
       "longBall": 37,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "deschamps",
@@ -514,7 +424,7 @@
       "longBall": 67,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "lampard",
@@ -532,7 +442,7 @@
       "longBall": 45,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "rijkaard1",
@@ -551,17 +461,7 @@
       "longBall": 46,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass B",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["CMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Prolific Winger",
-        "positions": ["LWF", "RWF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass B"]
   },
   {
     "id": "rijkaard2",
@@ -579,7 +479,7 @@
       "longBall": 35,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "cvalbuena",
@@ -595,7 +495,7 @@
       "longBall": 65,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "inzaghi2",
@@ -613,7 +513,7 @@
       "longBall": 29,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "gattuso",
@@ -632,17 +532,7 @@
       "longBall": 71,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Diagonal Long Pass A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["AMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Hole Player",
-        "positions": ["LMF", "RMF"]
-      }
-    }
+    "linkUpPlays": ["Diagonal Long Pass A"]
   },
   {
     "id": "beckenbauer",
@@ -661,7 +551,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "dstojkovic",
@@ -679,7 +569,7 @@
       "longBall": 53,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "ldelafuente",
@@ -697,7 +587,7 @@
       "longBall": 22,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "ohenrique",
@@ -715,7 +605,7 @@
       "longBall": 86,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "etenhag",
@@ -733,7 +623,7 @@
       "longBall": 40,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "pguardiola2",
@@ -751,7 +641,7 @@
       "longBall": 32,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "xavi",
@@ -769,7 +659,7 @@
       "longBall": 25,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "pioli",
@@ -787,7 +677,7 @@
       "longBall": 45,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "tuchel",
@@ -805,7 +695,7 @@
       "longBall": 24,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "zico",
@@ -823,7 +713,7 @@
       "longBall": 20,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "rmartinez2",
@@ -841,7 +731,7 @@
       "longBall": 88,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "montella",
@@ -859,7 +749,7 @@
       "longBall": 57,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "southgate",
@@ -877,7 +767,7 @@
       "longBall": 32,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "gerrard",
@@ -895,7 +785,7 @@
       "longBall": 88,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "vieira",
@@ -913,7 +803,7 @@
       "longBall": 88,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "hflick2",
@@ -932,7 +822,7 @@
       "longBall": 31,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "fonseca",
@@ -951,7 +841,7 @@
       "longBall": 63,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "rkoeman2",
@@ -970,7 +860,7 @@
       "longBall": 45,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "ramorim2",
@@ -989,7 +879,7 @@
       "longBall": 38,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "kompany",
@@ -1008,7 +898,7 @@
       "longBall": 54,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "solbakken",
@@ -1027,7 +917,7 @@
       "longBall": 80,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "cruyff",
@@ -1046,7 +936,7 @@
       "longBall": 43,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "buruk",
@@ -1065,7 +955,7 @@
       "longBall": 63,
       "overload": null
     },
-    "linkUpPlay": null
+    "linkUpPlays": []
   },
   {
     "id": "xalonso3",
@@ -1084,17 +974,7 @@
       "longBall": 56,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Breakthrough Pass A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["AMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Breakthrough Pass A"]
   },
   {
     "id": "klopp",
@@ -1113,17 +993,7 @@
       "longBall": 57,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass C",
-      "centerPiece": {
-        "playingStyle": "Build Up",
-        "positions": ["CB"]
-      },
-      "keyMan": {
-        "playingStyle": "Prolific Winger",
-        "positions": ["LWF", "RWF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass C"]
   },
   {
     "id": "kovac",
@@ -1142,17 +1012,7 @@
       "longBall": 56,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass A",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["DMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass A"]
   },
   {
     "id": "chivu",
@@ -1171,17 +1031,7 @@
       "longBall": 55,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Aggressive Centring A",
-      "centerPiece": {
-        "playingStyle": "Cross Specialist",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Aggressive Centring A"]
   },
   {
     "id": "beckenbauer2",
@@ -1200,17 +1050,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Breakthrough Pass B",
-      "centerPiece": {
-        "playingStyle": "Box-to-Box",
-        "positions": ["CMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Breakthrough Pass B"]
   },
   {
     "id": "cruyff2",
@@ -1229,17 +1069,7 @@
       "longBall": 54,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "1-2 Cut-in A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["1-2 Cut-in A"]
   },
   {
     "id": "martinez3",
@@ -1258,17 +1088,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Diagonal Long Pass B",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["LWF", "RWF"]
-      },
-      "keyMan": {
-        "playingStyle": "Attacking Full-back",
-        "positions": ["LB", "RB"]
-      }
-    }
+    "linkUpPlays": ["Diagonal Long Pass B"]
   },
   {
     "id": "tuchel2",
@@ -1287,17 +1107,7 @@
       "longBall": 58,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass A",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["DMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass A"]
   },
   {
     "id": "montella2",
@@ -1316,17 +1126,7 @@
       "longBall": 68,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Breakthrough Pass B",
-      "centerPiece": {
-        "playingStyle": "Box-to-Box",
-        "positions": ["CMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Breakthrough Pass B"]
   },
   {
     "id": "nagelsmann",
@@ -1345,17 +1145,7 @@
       "longBall": 89,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass C",
-      "centerPiece": {
-        "playingStyle": "Build Up",
-        "positions": ["CB"]
-      },
-      "keyMan": {
-        "playingStyle": "Prolific Winger",
-        "positions": ["LWF", "RWF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass C"]
   },
   {
     "id": "rkoeman3",
@@ -1374,17 +1164,7 @@
       "longBall": 69,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Over-the-Top Pass B",
-      "centerPiece": {
-        "playingStyle": "Orchestrator",
-        "positions": ["CMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Prolific Winger",
-        "positions": ["LWF", "RWF"]
-      }
-    }
+    "linkUpPlays": ["Over-the-Top Pass B"]
   },
   {
     "id": "deschamps2",
@@ -1403,17 +1183,7 @@
       "longBall": 63,
       "overload": null
     },
-    "linkUpPlay": {
-      "name": "Breakthrough Pass A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["AMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Goal Poacher",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["Breakthrough Pass A"]
   },
   {
     "id": "conte",
@@ -1432,30 +1202,7 @@
       "longBall": 68,
       "overload": 69
     },
-    "linkUpPlays": [
-      {
-        "name": "Over-the-Top Pass C",
-        "centerPiece": {
-          "playingStyle": "Build Up",
-          "positions": ["CB"]
-        },
-        "keyMan": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in B",
-        "centerPiece": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Over-the-Top Pass C", "1-2 Cut-in B"]
   },
   {
     "id": "lampard2",
@@ -1474,17 +1221,7 @@
       "longBall": 89,
       "overload": 89
     },
-    "linkUpPlay": {
-      "name": "1-2 Cut-in A",
-      "centerPiece": {
-        "playingStyle": "Creative Playmaker",
-        "positions": ["LMF", "RMF"]
-      },
-      "keyMan": {
-        "playingStyle": "Fox in the Box",
-        "positions": ["CF"]
-      }
-    }
+    "linkUpPlays": ["1-2 Cut-in A"]
   },
   {
     "id": "jmourinho3",
@@ -1503,30 +1240,7 @@
       "longBall": 75,
       "overload": 59
     },
-    "linkUpPlays": [
-      {
-        "name": "Shadow Link A",
-        "centerPiece": {
-          "playingStyle": "Deep-lying Forward",
-          "positions": ["CF"]
-        },
-        "keyMan": {
-          "playingStyle": "Classic No. 10",
-          "positions": ["AMF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in C",
-        "centerPiece": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Deep-lying Forward",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Shadow Link A", "1-2 Cut-in C"]
   },
   {
     "id": "tomoaki",
@@ -1545,30 +1259,7 @@
       "longBall": 59,
       "overload": 88
     },
-    "linkUpPlays": [
-      {
-        "name": "Over-the-Top Pass C",
-        "centerPiece": {
-          "playingStyle": "Build Up",
-          "positions": ["CB"]
-        },
-        "keyMan": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in B",
-        "centerPiece": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Over-the-Top Pass C", "1-2 Cut-in B"]
   },
   {
     "id": "rrodriguez",
@@ -1587,30 +1278,7 @@
       "longBall": 58,
       "overload": 85
     },
-    "linkUpPlays": [
-      {
-        "name": "Over-the-Top Pass A",
-        "centerPiece": {
-          "playingStyle": "Orchestrator",
-          "positions": ["DMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Goal Poacher",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "Breakthrough Pass A",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["AMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Goal Poacher",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Over-the-Top Pass A", "Breakthrough Pass A"]
   },
   {
     "id": "chivu2",
@@ -1629,30 +1297,7 @@
       "longBall": 90,
       "overload": 56
     },
-    "linkUpPlays": [
-      {
-        "name": "Aggressive Centring A",
-        "centerPiece": {
-          "playingStyle": "Cross Specialist",
-          "positions": ["LMF", "RMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in A",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["LMF", "RMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Aggressive Centring A", "1-2 Cut-in A"]
   },
   {
     "id": "klopp2",
@@ -1671,30 +1316,7 @@
       "longBall": 60,
       "overload": 83
     },
-    "linkUpPlays": [
-      {
-        "name": "Breakthrough Pass D",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Goal Poacher",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "2-Man Press A",
-        "centerPiece": {
-          "playingStyle": "The Destroyer",
-          "positions": ["CMF"]
-        },
-        "keyMan": {
-          "playingStyle": "The Destroyer",
-          "positions": ["CMF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Breakthrough Pass D", "2-Man Press A"]
   },
   {
     "id": "kovac2",
@@ -1713,30 +1335,7 @@
       "longBall": 53,
       "overload": 57
     },
-    "linkUpPlays": [
-      {
-        "name": "Aggressive Centring B",
-        "centerPiece": {
-          "playingStyle": "Attacking Full-back",
-          "positions": ["LB", "RB"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "Shadow Link B",
-        "centerPiece": {
-          "playingStyle": "Deep-lying Forward",
-          "positions": ["SS"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Aggressive Centring B", "Shadow Link B"]
   },
   {
     "id": "ryo",
@@ -1755,30 +1354,7 @@
       "longBall": 60,
       "overload": 75
     },
-    "linkUpPlays": [
-      {
-        "name": "Aggressive Centring A",
-        "centerPiece": {
-          "playingStyle": "Cross Specialist",
-          "positions": ["LMF", "RMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in A",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["LMF", "RMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Aggressive Centring A", "1-2 Cut-in A"]
   },
   {
     "id": "skibbe",
@@ -1797,30 +1373,7 @@
       "longBall": 85,
       "overload": 74
     },
-    "linkUpPlays": [
-      {
-        "name": "Diagonal Long Pass B",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Attacking Full-back",
-          "positions": ["LB", "RB"]
-        }
-      },
-      {
-        "name": "Over-the-Top Pass B",
-        "centerPiece": {
-          "playingStyle": "Orchestrator",
-          "positions": ["CMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Diagonal Long Pass B", "Over-the-Top Pass B"]
   },
   {
     "id": "marteta4",
@@ -1839,30 +1392,7 @@
       "longBall": 58,
       "overload": 90
     },
-    "linkUpPlays": [
-      {
-        "name": "Breakthrough Pass C",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["AMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        }
-      },
-      {
-        "name": "1-2 Cut-in C",
-        "centerPiece": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        },
-        "keyMan": {
-          "playingStyle": "Deep-lying Forward",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Breakthrough Pass C", "1-2 Cut-in C"]
   },
   {
     "id": "matsuhashi",
@@ -1881,30 +1411,7 @@
       "longBall": 58,
       "overload": 80
     },
-    "linkUpPlays": [
-      {
-        "name": "1-2 Cut-in A",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["LMF","RMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      },
-      {
-        "name": "Shadow Link B",
-        "centerPiece": {
-          "playingStyle": "Deep-lying Forward",
-          "positions": ["SS"]
-        },
-        "keyMan": {
-          "playingStyle": "Fox in the Box",
-          "positions": ["CF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["1-2 Cut-in A", "Shadow Link B"]
   },
   {
     "id": "kenta",
@@ -1923,29 +1430,6 @@
       "longBall": 63,
       "overload": 88
     },
-    "linkUpPlays": [
-      {
-        "name": "Over-the-Top Pass B",
-        "centerPiece": {
-          "playingStyle": "Orchestrator",
-          "positions": ["CMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Prolific Winger",
-          "positions": ["LWF", "RWF"]
-        }
-      },
-      {
-        "name": "Diagonal Long Pass A",
-        "centerPiece": {
-          "playingStyle": "Creative Playmaker",
-          "positions": ["AMF"]
-        },
-        "keyMan": {
-          "playingStyle": "Hole Player",
-          "positions": ["LMF","RMF"]
-        }
-      }
-    ]
+    "linkUpPlays": ["Over-the-Top Pass B", "Diagonal Long Pass A"]
   }
 ]
